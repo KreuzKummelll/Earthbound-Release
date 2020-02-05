@@ -8,18 +8,16 @@
 
 import SwiftUI
 
-//class Poem : ObservableObject, Identifiable {
-//    @Published var title: String = ""
-//    @Published var text: String = ""
-//    @Published var no: Int = 0
-//    @Published var neighbours = (0,0)
-//    let id = UUID()
-//}
 
-
-struct Poem: Identifiable {
+struct Poem: Identifiable, Hashable, Codable {
+    static func == (lhs: Poem, rhs: Poem) -> Bool {
+        lhs.title == rhs.title && lhs.text == rhs.text
+    }
+    
     var title: String
     var text: String
-    var id = UUID()
-    var neighbours : (Int, Int)
+    var id : Int16
+    var neighbours: (Int16, Int16) {
+        ((id == 0 ? 0 : (id - 1)), id + 1)
+    }
 }

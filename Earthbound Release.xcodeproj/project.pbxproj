@@ -7,436 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		49005ED422EE2D030020AFD9 /* poem162.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005E0F22EE2CF80020AFD9 /* poem162.txt */; };
-		49005ED522EE2D030020AFD9 /* poem85.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005E1022EE2CF80020AFD9 /* poem85.txt */; };
-		49005ED622EE2D030020AFD9 /* poem55.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005E1122EE2CF80020AFD9 /* poem55.txt */; };
-		49005ED722EE2D030020AFD9 /* poem137.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005E1222EE2CF80020AFD9 /* poem137.txt */; };
-		49005ED822EE2D030020AFD9 /* poem123.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005E1322EE2CF80020AFD9 /* poem123.txt */; };
-		49005ED922EE2D030020AFD9 /* poem170.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005E1422EE2CF80020AFD9 /* poem170.txt */; };
-		49005EDA22EE2D030020AFD9 /* poem90.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005E1522EE2CF80020AFD9 /* poem90.txt */; };
-		49005EDB22EE2D030020AFD9 /* poem118.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005E1622EE2CF80020AFD9 /* poem118.txt */; };
-		49005EDC22EE2D030020AFD9 /* poem128.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005E1722EE2CF80020AFD9 /* poem128.txt */; };
-		49005EDD22EE2D030020AFD9 /* poem30.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005E1822EE2CF80020AFD9 /* poem30.txt */; };
-		49005EDE22EE2D030020AFD9 /* poem158.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005E1922EE2CF80020AFD9 /* poem158.txt */; };
-		49005EDF22EE2D030020AFD9 /* poem181.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005E1A22EE2CF80020AFD9 /* poem181.txt */; };
-		49005EE022EE2D030020AFD9 /* poem101.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005E1B22EE2CF80020AFD9 /* poem101.txt */; };
-		49005EE122EE2D030020AFD9 /* poem156.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005E1C22EE2CF90020AFD9 /* poem156.txt */; };
-		49005EE222EE2D030020AFD9 /* poem99.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005E1D22EE2CF90020AFD9 /* poem99.txt */; };
-		49005EE322EE2D030020AFD9 /* poem11.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005E1E22EE2CF90020AFD9 /* poem11.txt */; };
-		49005EE422EE2D030020AFD9 /* poem52.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005E1F22EE2CF90020AFD9 /* poem52.txt */; };
-		49005EE522EE2D030020AFD9 /* poem133.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005E2022EE2CF90020AFD9 /* poem133.txt */; };
-		49005EE622EE2D030020AFD9 /* poem60.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005E2122EE2CF90020AFD9 /* poem60.txt */; };
-		49005EE722EE2D030020AFD9 /* poem74.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005E2222EE2CF90020AFD9 /* poem74.txt */; };
-		49005EE822EE2D030020AFD9 /* poem115.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005E2322EE2CF90020AFD9 /* poem115.txt */; };
-		49005EE922EE2D030020AFD9 /* poem31.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005E2422EE2CF90020AFD9 /* poem31.txt */; };
-		49005EEA22EE2D030020AFD9 /* poem2.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005E2522EE2CF90020AFD9 /* poem2.txt */; };
-		49005EEB22EE2D030020AFD9 /* poem172.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005E2622EE2CF90020AFD9 /* poem172.txt */; };
-		49005EEC22EE2D030020AFD9 /* poem157.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005E2722EE2CF90020AFD9 /* poem157.txt */; };
-		49005EED22EE2D030020AFD9 /* poem82.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005E2822EE2CF90020AFD9 /* poem82.txt */; };
-		49005EEE22EE2D030020AFD9 /* poem22.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005E2922EE2CF90020AFD9 /* poem22.txt */; };
-		49005EEF22EE2D030020AFD9 /* poem42.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005E2A22EE2CFA0020AFD9 /* poem42.txt */; };
-		49005EF022EE2D030020AFD9 /* poem36.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005E2B22EE2CFA0020AFD9 /* poem36.txt */; };
-		49005EF122EE2D030020AFD9 /* poem187.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005E2C22EE2CFA0020AFD9 /* poem187.txt */; };
-		49005EF222EE2D030020AFD9 /* poem9.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005E2D22EE2CFA0020AFD9 /* poem9.txt */; };
-		49005EF322EE2D030020AFD9 /* poem75.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005E2E22EE2CFA0020AFD9 /* poem75.txt */; };
-		49005EF422EE2D030020AFD9 /* poem153.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005E2F22EE2CFA0020AFD9 /* poem153.txt */; };
-		49005EF522EE2D030020AFD9 /* poem130.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005E3022EE2CFA0020AFD9 /* poem130.txt */; };
-		49005EF622EE2D030020AFD9 /* poem168.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005E3122EE2CFA0020AFD9 /* poem168.txt */; };
-		49005EF722EE2D030020AFD9 /* poem72.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005E3222EE2CFA0020AFD9 /* poem72.txt */; };
-		49005EF822EE2D030020AFD9 /* poem51.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005E3322EE2CFA0020AFD9 /* poem51.txt */; };
-		49005EF922EE2D030020AFD9 /* poem14.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005E3422EE2CFA0020AFD9 /* poem14.txt */; };
-		49005EFA22EE2D030020AFD9 /* poem185.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005E3522EE2CFA0020AFD9 /* poem185.txt */; };
-		49005EFB22EE2D030020AFD9 /* poem127.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005E3622EE2CFA0020AFD9 /* poem127.txt */; };
-		49005EFC22EE2D030020AFD9 /* poem138.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005E3722EE2CFA0020AFD9 /* poem138.txt */; };
-		49005EFD22EE2D030020AFD9 /* poem129.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005E3822EE2CFA0020AFD9 /* poem129.txt */; };
-		49005EFE22EE2D030020AFD9 /* poem117.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005E3922EE2CFA0020AFD9 /* poem117.txt */; };
-		49005EFF22EE2D030020AFD9 /* poem183.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005E3A22EE2CFA0020AFD9 /* poem183.txt */; };
-		49005F0022EE2D030020AFD9 /* poem50.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005E3B22EE2CFA0020AFD9 /* poem50.txt */; };
-		49005F0122EE2D030020AFD9 /* poem18.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005E3C22EE2CFA0020AFD9 /* poem18.txt */; };
-		49005F0222EE2D030020AFD9 /* poem17.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005E3D22EE2CFA0020AFD9 /* poem17.txt */; };
-		49005F0322EE2D030020AFD9 /* poem29.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005E3E22EE2CFA0020AFD9 /* poem29.txt */; };
-		49005F0422EE2D030020AFD9 /* poem116.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005E3F22EE2CFA0020AFD9 /* poem116.txt */; };
-		49005F0522EE2D030020AFD9 /* poem77.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005E4022EE2CFA0020AFD9 /* poem77.txt */; };
-		49005F0622EE2D030020AFD9 /* poem103.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005E4122EE2CFA0020AFD9 /* poem103.txt */; };
-		49005F0722EE2D030020AFD9 /* poem178.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005E4222EE2CFA0020AFD9 /* poem178.txt */; };
-		49005F0822EE2D030020AFD9 /* poem105.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005E4322EE2CFA0020AFD9 /* poem105.txt */; };
-		49005F0922EE2D030020AFD9 /* poem97.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005E4422EE2CFA0020AFD9 /* poem97.txt */; };
-		49005F0A22EE2D030020AFD9 /* poem91.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005E4522EE2CFA0020AFD9 /* poem91.txt */; };
-		49005F0B22EE2D030020AFD9 /* poem83.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005E4622EE2CFA0020AFD9 /* poem83.txt */; };
-		49005F0C22EE2D030020AFD9 /* poem198.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005E4722EE2CFA0020AFD9 /* poem198.txt */; };
-		49005F0D22EE2D030020AFD9 /* poem195.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005E4822EE2CFA0020AFD9 /* poem195.txt */; };
-		49005F0E22EE2D030020AFD9 /* poem40.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005E4922EE2CFA0020AFD9 /* poem40.txt */; };
-		49005F0F22EE2D030020AFD9 /* poem15.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005E4A22EE2CFA0020AFD9 /* poem15.txt */; };
-		49005F1022EE2D030020AFD9 /* poem173.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005E4B22EE2CFA0020AFD9 /* poem173.txt */; };
-		49005F1122EE2D030020AFD9 /* poem93.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005E4C22EE2CFA0020AFD9 /* poem93.txt */; };
-		49005F1222EE2D030020AFD9 /* poem197.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005E4D22EE2CFB0020AFD9 /* poem197.txt */; };
-		49005F1322EE2D030020AFD9 /* poem134.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005E4E22EE2CFB0020AFD9 /* poem134.txt */; };
-		49005F1422EE2D030020AFD9 /* poem81.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005E4F22EE2CFB0020AFD9 /* poem81.txt */; };
-		49005F1522EE2D030020AFD9 /* poem147.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005E5022EE2CFB0020AFD9 /* poem147.txt */; };
-		49005F1622EE2D030020AFD9 /* poem159.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005E5122EE2CFB0020AFD9 /* poem159.txt */; };
-		49005F1722EE2D030020AFD9 /* poem45.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005E5222EE2CFB0020AFD9 /* poem45.txt */; };
-		49005F1822EE2D030020AFD9 /* poem63.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005E5322EE2CFB0020AFD9 /* poem63.txt */; };
-		49005F1922EE2D030020AFD9 /* poem54.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005E5422EE2CFB0020AFD9 /* poem54.txt */; };
-		49005F1A22EE2D030020AFD9 /* poem120.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005E5522EE2CFB0020AFD9 /* poem120.txt */; };
-		49005F1B22EE2D030020AFD9 /* poem62.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005E5622EE2CFB0020AFD9 /* poem62.txt */; };
-		49005F1C22EE2D030020AFD9 /* poem33.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005E5722EE2CFB0020AFD9 /* poem33.txt */; };
-		49005F1D22EE2D030020AFD9 /* poem119.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005E5822EE2CFB0020AFD9 /* poem119.txt */; };
-		49005F1E22EE2D030020AFD9 /* poem92.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005E5922EE2CFB0020AFD9 /* poem92.txt */; };
-		49005F1F22EE2D030020AFD9 /* poem131.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005E5A22EE2CFB0020AFD9 /* poem131.txt */; };
-		49005F2022EE2D030020AFD9 /* poem71.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005E5B22EE2CFB0020AFD9 /* poem71.txt */; };
-		49005F2122EE2D030020AFD9 /* poem35.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005E5C22EE2CFB0020AFD9 /* poem35.txt */; };
-		49005F2222EE2D030020AFD9 /* poem121.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005E5D22EE2CFB0020AFD9 /* poem121.txt */; };
-		49005F2322EE2D030020AFD9 /* poem165.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005E5E22EE2CFB0020AFD9 /* poem165.txt */; };
-		49005F2422EE2D030020AFD9 /* poem104.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005E5F22EE2CFB0020AFD9 /* poem104.txt */; };
-		49005F2522EE2D030020AFD9 /* poem39.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005E6022EE2CFB0020AFD9 /* poem39.txt */; };
-		49005F2622EE2D030020AFD9 /* poem47.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005E6122EE2CFB0020AFD9 /* poem47.txt */; };
-		49005F2722EE2D030020AFD9 /* poem174.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005E6222EE2CFB0020AFD9 /* poem174.txt */; };
-		49005F2822EE2D030020AFD9 /* poem148.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005E6322EE2CFB0020AFD9 /* poem148.txt */; };
-		49005F2922EE2D030020AFD9 /* poem37.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005E6422EE2CFB0020AFD9 /* poem37.txt */; };
-		49005F2A22EE2D030020AFD9 /* poem28.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005E6522EE2CFB0020AFD9 /* poem28.txt */; };
-		49005F2B22EE2D030020AFD9 /* poem108.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005E6622EE2CFB0020AFD9 /* poem108.txt */; };
-		49005F2C22EE2D030020AFD9 /* poem122.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005E6722EE2CFB0020AFD9 /* poem122.txt */; };
-		49005F2D22EE2D030020AFD9 /* poem160.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005E6822EE2CFB0020AFD9 /* poem160.txt */; };
-		49005F2E22EE2D030020AFD9 /* poem124.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005E6922EE2CFB0020AFD9 /* poem124.txt */; };
-		49005F2F22EE2D030020AFD9 /* poem56.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005E6A22EE2CFB0020AFD9 /* poem56.txt */; };
-		49005F3022EE2D030020AFD9 /* poem88.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005E6B22EE2CFB0020AFD9 /* poem88.txt */; };
-		49005F3122EE2D030020AFD9 /* poem186.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005E6C22EE2CFB0020AFD9 /* poem186.txt */; };
-		49005F3222EE2D030020AFD9 /* poem175.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005E6D22EE2CFB0020AFD9 /* poem175.txt */; };
-		49005F3322EE2D030020AFD9 /* poem7.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005E6E22EE2CFB0020AFD9 /* poem7.txt */; };
-		49005F3422EE2D030020AFD9 /* poem163.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005E6F22EE2CFB0020AFD9 /* poem163.txt */; };
-		49005F3522EE2D030020AFD9 /* poem102.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005E7022EE2CFB0020AFD9 /* poem102.txt */; };
-		49005F3622EE2D030020AFD9 /* poem32.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005E7122EE2CFB0020AFD9 /* poem32.txt */; };
-		49005F3722EE2D030020AFD9 /* poem23.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005E7222EE2CFB0020AFD9 /* poem23.txt */; };
-		49005F3822EE2D030020AFD9 /* poem10.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005E7322EE2CFB0020AFD9 /* poem10.txt */; };
-		49005F3922EE2D030020AFD9 /* poem86.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005E7422EE2CFB0020AFD9 /* poem86.txt */; };
-		49005F3A22EE2D030020AFD9 /* poem94.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005E7522EE2CFB0020AFD9 /* poem94.txt */; };
-		49005F3B22EE2D030020AFD9 /* poem69.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005E7622EE2CFB0020AFD9 /* poem69.txt */; };
-		49005F3C22EE2D030020AFD9 /* poem4.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005E7722EE2CFB0020AFD9 /* poem4.txt */; };
-		49005F3D22EE2D030020AFD9 /* poem151.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005E7822EE2CFB0020AFD9 /* poem151.txt */; };
-		49005F3E22EE2D030020AFD9 /* poem13.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005E7922EE2CFB0020AFD9 /* poem13.txt */; };
-		49005F3F22EE2D030020AFD9 /* poem96.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005E7A22EE2CFB0020AFD9 /* poem96.txt */; };
-		49005F4022EE2D030020AFD9 /* poem167.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005E7B22EE2CFB0020AFD9 /* poem167.txt */; };
-		49005F4122EE2D030020AFD9 /* poem76.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005E7C22EE2CFB0020AFD9 /* poem76.txt */; };
-		49005F4222EE2D030020AFD9 /* poem100.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005E7D22EE2CFB0020AFD9 /* poem100.txt */; };
-		49005F4322EE2D030020AFD9 /* poem176.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005E7E22EE2CFB0020AFD9 /* poem176.txt */; };
-		49005F4422EE2D030020AFD9 /* poem58.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005E7F22EE2CFB0020AFD9 /* poem58.txt */; };
-		49005F4522EE2D030020AFD9 /* poem64.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005E8022EE2CFB0020AFD9 /* poem64.txt */; };
-		49005F4622EE2D030020AFD9 /* poem107.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005E8122EE2CFC0020AFD9 /* poem107.txt */; };
-		49005F4722EE2D030020AFD9 /* poem190.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005E8222EE2CFC0020AFD9 /* poem190.txt */; };
-		49005F4822EE2D030020AFD9 /* poem106.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005E8322EE2CFC0020AFD9 /* poem106.txt */; };
-		49005F4922EE2D030020AFD9 /* poem135.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005E8422EE2CFC0020AFD9 /* poem135.txt */; };
-		49005F4A22EE2D030020AFD9 /* poem57.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005E8522EE2CFC0020AFD9 /* poem57.txt */; };
-		49005F4B22EE2D030020AFD9 /* poem68.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005E8622EE2CFC0020AFD9 /* poem68.txt */; };
-		49005F4C22EE2D030020AFD9 /* poem142.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005E8722EE2CFC0020AFD9 /* poem142.txt */; };
-		49005F4D22EE2D030020AFD9 /* poem89.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005E8822EE2CFC0020AFD9 /* poem89.txt */; };
-		49005F4E22EE2D030020AFD9 /* poem41.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005E8922EE2CFC0020AFD9 /* poem41.txt */; };
-		49005F4F22EE2D030020AFD9 /* poem166.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005E8A22EE2CFC0020AFD9 /* poem166.txt */; };
-		49005F5022EE2D030020AFD9 /* poem139.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005E8B22EE2CFC0020AFD9 /* poem139.txt */; };
-		49005F5122EE2D030020AFD9 /* poem79.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005E8C22EE2CFC0020AFD9 /* poem79.txt */; };
-		49005F5222EE2D030020AFD9 /* poem61.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005E8D22EE2CFC0020AFD9 /* poem61.txt */; };
-		49005F5322EE2D030020AFD9 /* poem182.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005E8E22EE2CFC0020AFD9 /* poem182.txt */; };
-		49005F5422EE2D030020AFD9 /* poem65.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005E8F22EE2CFC0020AFD9 /* poem65.txt */; };
-		49005F5522EE2D030020AFD9 /* poem201.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005E9022EE2CFD0020AFD9 /* poem201.txt */; };
-		49005F5622EE2D030020AFD9 /* poem19.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005E9122EE2CFD0020AFD9 /* poem19.txt */; };
-		49005F5722EE2D030020AFD9 /* poem109.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005E9222EE2CFD0020AFD9 /* poem109.txt */; };
-		49005F5822EE2D030020AFD9 /* poem188.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005E9322EE2CFD0020AFD9 /* poem188.txt */; };
-		49005F5922EE2D030020AFD9 /* poem169.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005E9422EE2CFD0020AFD9 /* poem169.txt */; };
-		49005F5A22EE2D030020AFD9 /* poem3.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005E9522EE2CFD0020AFD9 /* poem3.txt */; };
-		49005F5B22EE2D030020AFD9 /* poem6.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005E9622EE2CFD0020AFD9 /* poem6.txt */; };
-		49005F5C22EE2D030020AFD9 /* poem24.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005E9722EE2CFD0020AFD9 /* poem24.txt */; };
-		49005F5D22EE2D030020AFD9 /* poem95.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005E9822EE2CFD0020AFD9 /* poem95.txt */; };
-		49005F5E22EE2D030020AFD9 /* poem66.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005E9922EE2CFD0020AFD9 /* poem66.txt */; };
-		49005F5F22EE2D030020AFD9 /* poem171.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005E9A22EE2CFD0020AFD9 /* poem171.txt */; };
-		49005F6022EE2D030020AFD9 /* poem152.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005E9B22EE2CFD0020AFD9 /* poem152.txt */; };
-		49005F6122EE2D030020AFD9 /* poem5.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005E9C22EE2CFE0020AFD9 /* poem5.txt */; };
-		49005F6222EE2D030020AFD9 /* poem21.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005E9D22EE2CFE0020AFD9 /* poem21.txt */; };
-		49005F6322EE2D030020AFD9 /* poem67.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005E9E22EE2CFE0020AFD9 /* poem67.txt */; };
-		49005F6422EE2D030020AFD9 /* poem8.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005E9F22EE2CFE0020AFD9 /* poem8.txt */; };
-		49005F6522EE2D030020AFD9 /* poem38.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005EA022EE2CFE0020AFD9 /* poem38.txt */; };
-		49005F6622EE2D030020AFD9 /* poem34.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005EA122EE2CFE0020AFD9 /* poem34.txt */; };
-		49005F6722EE2D030020AFD9 /* poem141.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005EA222EE2CFE0020AFD9 /* poem141.txt */; };
-		49005F6822EE2D030020AFD9 /* poem25.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005EA322EE2CFE0020AFD9 /* poem25.txt */; };
-		49005F6922EE2D030020AFD9 /* poem194.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005EA422EE2CFE0020AFD9 /* poem194.txt */; };
-		49005F6A22EE2D030020AFD9 /* poem179.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005EA522EE2CFE0020AFD9 /* poem179.txt */; };
-		49005F6B22EE2D030020AFD9 /* poem140.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005EA622EE2CFE0020AFD9 /* poem140.txt */; };
-		49005F6C22EE2D030020AFD9 /* poem46.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005EA722EE2CFE0020AFD9 /* poem46.txt */; };
-		49005F6D22EE2D030020AFD9 /* poem27.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005EA822EE2CFF0020AFD9 /* poem27.txt */; };
-		49005F6E22EE2D030020AFD9 /* poem16.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005EA922EE2CFF0020AFD9 /* poem16.txt */; };
-		49005F6F22EE2D030020AFD9 /* poem112.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005EAA22EE2CFF0020AFD9 /* poem112.txt */; };
-		49005F7022EE2D030020AFD9 /* poem98.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005EAB22EE2CFF0020AFD9 /* poem98.txt */; };
-		49005F7122EE2D030020AFD9 /* poem191.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005EAC22EE2CFF0020AFD9 /* poem191.txt */; };
-		49005F7222EE2D030020AFD9 /* poem200.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005EAD22EE2CFF0020AFD9 /* poem200.txt */; };
-		49005F7322EE2D030020AFD9 /* poem78.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005EAE22EE2CFF0020AFD9 /* poem78.txt */; };
-		49005F7422EE2D030020AFD9 /* poem154.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005EAF22EE2CFF0020AFD9 /* poem154.txt */; };
-		49005F7522EE2D030020AFD9 /* poem113.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005EB022EE2CFF0020AFD9 /* poem113.txt */; };
-		49005F7622EE2D030020AFD9 /* poem80.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005EB122EE2CFF0020AFD9 /* poem80.txt */; };
-		49005F7722EE2D030020AFD9 /* poem132.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005EB222EE2CFF0020AFD9 /* poem132.txt */; };
-		49005F7822EE2D030020AFD9 /* poem177.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005EB322EE2CFF0020AFD9 /* poem177.txt */; };
-		49005F7922EE2D030020AFD9 /* poem149.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005EB422EE2D000020AFD9 /* poem149.txt */; };
-		49005F7A22EE2D030020AFD9 /* poem144.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005EB522EE2D000020AFD9 /* poem144.txt */; };
-		49005F7B22EE2D030020AFD9 /* poem146.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005EB622EE2D000020AFD9 /* poem146.txt */; };
-		49005F7C22EE2D030020AFD9 /* poem53.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005EB722EE2D000020AFD9 /* poem53.txt */; };
-		49005F7D22EE2D030020AFD9 /* poem114.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005EB822EE2D000020AFD9 /* poem114.txt */; };
-		49005F7E22EE2D030020AFD9 /* poem48.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005EB922EE2D000020AFD9 /* poem48.txt */; };
-		49005F7F22EE2D030020AFD9 /* poem126.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005EBA22EE2D000020AFD9 /* poem126.txt */; };
-		49005F8022EE2D030020AFD9 /* poem111.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005EBB22EE2D000020AFD9 /* poem111.txt */; };
-		49005F8122EE2D030020AFD9 /* poem161.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005EBC22EE2D000020AFD9 /* poem161.txt */; };
-		49005F8222EE2D030020AFD9 /* poem189.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005EBD22EE2D010020AFD9 /* poem189.txt */; };
-		49005F8322EE2D030020AFD9 /* poem59.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005EBE22EE2D010020AFD9 /* poem59.txt */; };
-		49005F8422EE2D030020AFD9 /* poem155.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005EBF22EE2D010020AFD9 /* poem155.txt */; };
-		49005F8522EE2D030020AFD9 /* poem20.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005EC022EE2D010020AFD9 /* poem20.txt */; };
-		49005F8622EE2D030020AFD9 /* poem143.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005EC122EE2D010020AFD9 /* poem143.txt */; };
-		49005F8722EE2D030020AFD9 /* poem180.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005EC222EE2D020020AFD9 /* poem180.txt */; };
-		49005F8822EE2D030020AFD9 /* poem145.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005EC322EE2D020020AFD9 /* poem145.txt */; };
-		49005F8922EE2D030020AFD9 /* poem150.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005EC422EE2D020020AFD9 /* poem150.txt */; };
-		49005F8A22EE2D030020AFD9 /* poem110.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005EC522EE2D020020AFD9 /* poem110.txt */; };
-		49005F8B22EE2D030020AFD9 /* poem12.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005EC622EE2D020020AFD9 /* poem12.txt */; };
-		49005F8C22EE2D030020AFD9 /* poem84.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005EC722EE2D020020AFD9 /* poem84.txt */; };
-		49005F8D22EE2D030020AFD9 /* poem193.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005EC822EE2D020020AFD9 /* poem193.txt */; };
-		49005F8E22EE2D030020AFD9 /* poem26.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005EC922EE2D020020AFD9 /* poem26.txt */; };
-		49005F8F22EE2D030020AFD9 /* poem44.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005ECA22EE2D020020AFD9 /* poem44.txt */; };
-		49005F9022EE2D030020AFD9 /* poem49.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005ECB22EE2D020020AFD9 /* poem49.txt */; };
-		49005F9122EE2D030020AFD9 /* poem136.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005ECC22EE2D020020AFD9 /* poem136.txt */; };
-		49005F9222EE2D030020AFD9 /* poem164.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005ECD22EE2D020020AFD9 /* poem164.txt */; };
-		49005F9322EE2D030020AFD9 /* poem196.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005ECE22EE2D030020AFD9 /* poem196.txt */; };
-		49005F9422EE2D030020AFD9 /* poem192.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005ECF22EE2D030020AFD9 /* poem192.txt */; };
-		49005F9522EE2D030020AFD9 /* poem1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005ED022EE2D030020AFD9 /* poem1.txt */; };
-		49005F9622EE2D030020AFD9 /* poem184.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005ED122EE2D030020AFD9 /* poem184.txt */; };
-		49005F9722EE2D030020AFD9 /* poem199.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005ED222EE2D030020AFD9 /* poem199.txt */; };
-		49005F9822EE2D030020AFD9 /* poem43.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49005ED322EE2D030020AFD9 /* poem43.txt */; };
 		49005F9A22EE31A10020AFD9 /* FrameImages.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49005F9922EE31A10020AFD9 /* FrameImages.xcassets */; };
-		4901EA3722ED701A002049B3 /* CoverPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4901EA3622ED701A002049B3 /* CoverPage.swift */; };
-		4901EA3922ED7598002049B3 /* ThemeComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4901EA3822ED7598002049B3 /* ThemeComponents.swift */; };
-		49026D3F2384428D00445FFB /* FrameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49026D3E2384428D00445FFB /* FrameView.swift */; };
-		49026D4123844D0800445FFB /* ButtonTo_PoemTitleListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49026D4023844D0800445FFB /* ButtonTo_PoemTitleListView.swift */; };
-		490F9B51238C7D8900CF8D93 /* PoemCD+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490F9B4F238C7D8900CF8D93 /* PoemCD+CoreDataClass.swift */; };
-		490F9B52238C7D8900CF8D93 /* PoemCD+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490F9B50238C7D8900CF8D93 /* PoemCD+CoreDataProperties.swift */; };
-		4933AB40238E909E00058D9E /* UserSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4933AB3F238E909E00058D9E /* UserSettings.swift */; };
-		4933AB42238E90E200058D9E /* UserDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4933AB41238E90E200058D9E /* UserDefault.swift */; };
-		4966DE132376EC050092CF77 /* TitlePreviewCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4966DE122376EC050092CF77 /* TitlePreviewCard.swift */; };
 		4966DE162376F8E80092CF77 /* Earthbound_Release.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4966DE142376F8E80092CF77 /* Earthbound_Release.xcdatamodeld */; };
-		496B20462389EC2100559168 /* ShapesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496B20452389EC2100559168 /* ShapesView.swift */; };
+		496B74BF23E9BD9F002EC5B6 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496B74BE23E9BD9F002EC5B6 /* Persistence.swift */; };
+		496B74C123E9BE8E002EC5B6 /* PoemCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496B74C023E9BE8E002EC5B6 /* PoemCellView.swift */; };
 		49A36B3322AD14670021EEE3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A36B3222AD14670021EEE3 /* AppDelegate.swift */; };
 		49A36B3522AD14670021EEE3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A36B3422AD14670021EEE3 /* SceneDelegate.swift */; };
 		49A36B3922AD14680021EEE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49A36B3822AD14680021EEE3 /* Assets.xcassets */; };
 		49A36B3C22AD14680021EEE3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49A36B3B22AD14680021EEE3 /* Preview Assets.xcassets */; };
 		49A36B3F22AD14680021EEE3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49A36B3D22AD14680021EEE3 /* LaunchScreen.storyboard */; };
-		49A36B4C22AD15E80021EEE3 /* PoemCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A36B4B22AD15E80021EEE3 /* PoemCellView.swift */; };
 		49A36B4E22AD17090021EEE3 /* Poem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A36B4D22AD17090021EEE3 /* Poem.swift */; };
 		49CF579422ED9F8B0087294C /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CF579322ED9F8B0087294C /* AppState.swift */; };
-		49CF579822EDA2860087294C /* PoemDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CF579722EDA2860087294C /* PoemDetail.swift */; };
+		49D8BDE323E762AA00B40784 /* BookCoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D8BDE223E762AA00B40784 /* BookCoverView.swift */; };
+		49D8BDE523E762D300B40784 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D8BDE423E762D300B40784 /* ContentView.swift */; };
+		49D8BDED23E7634200B40784 /* Earthbound_ReleaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D8BDEC23E7634200B40784 /* Earthbound_ReleaseTests.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		49D8BDEF23E7634200B40784 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49A36B2722AD14670021EEE3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49A36B2E22AD14670021EEE3;
+			remoteInfo = "Earthbound Release";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		49005E0F22EE2CF80020AFD9 /* poem162.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem162.txt; path = "Earthbound Release/Poems copy/poem162.txt"; sourceTree = SOURCE_ROOT; };
-		49005E1022EE2CF80020AFD9 /* poem85.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem85.txt; path = "Earthbound Release/Poems copy/poem85.txt"; sourceTree = SOURCE_ROOT; };
-		49005E1122EE2CF80020AFD9 /* poem55.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem55.txt; path = "Earthbound Release/Poems copy/poem55.txt"; sourceTree = SOURCE_ROOT; };
-		49005E1222EE2CF80020AFD9 /* poem137.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem137.txt; path = "Earthbound Release/Poems copy/poem137.txt"; sourceTree = SOURCE_ROOT; };
-		49005E1322EE2CF80020AFD9 /* poem123.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem123.txt; path = "Earthbound Release/Poems copy/poem123.txt"; sourceTree = SOURCE_ROOT; };
-		49005E1422EE2CF80020AFD9 /* poem170.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem170.txt; path = "Earthbound Release/Poems copy/poem170.txt"; sourceTree = SOURCE_ROOT; };
-		49005E1522EE2CF80020AFD9 /* poem90.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem90.txt; path = "Earthbound Release/Poems copy/poem90.txt"; sourceTree = SOURCE_ROOT; };
-		49005E1622EE2CF80020AFD9 /* poem118.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem118.txt; path = "Earthbound Release/Poems copy/poem118.txt"; sourceTree = SOURCE_ROOT; };
-		49005E1722EE2CF80020AFD9 /* poem128.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem128.txt; path = "Earthbound Release/Poems copy/poem128.txt"; sourceTree = SOURCE_ROOT; };
-		49005E1822EE2CF80020AFD9 /* poem30.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem30.txt; path = "Earthbound Release/Poems copy/poem30.txt"; sourceTree = SOURCE_ROOT; };
-		49005E1922EE2CF80020AFD9 /* poem158.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem158.txt; path = "Earthbound Release/Poems copy/poem158.txt"; sourceTree = SOURCE_ROOT; };
-		49005E1A22EE2CF80020AFD9 /* poem181.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem181.txt; path = "Earthbound Release/Poems copy/poem181.txt"; sourceTree = SOURCE_ROOT; };
-		49005E1B22EE2CF80020AFD9 /* poem101.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem101.txt; path = "Earthbound Release/Poems copy/poem101.txt"; sourceTree = SOURCE_ROOT; };
-		49005E1C22EE2CF90020AFD9 /* poem156.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem156.txt; path = "Earthbound Release/Poems copy/poem156.txt"; sourceTree = SOURCE_ROOT; };
-		49005E1D22EE2CF90020AFD9 /* poem99.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem99.txt; path = "Earthbound Release/Poems copy/poem99.txt"; sourceTree = SOURCE_ROOT; };
-		49005E1E22EE2CF90020AFD9 /* poem11.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem11.txt; path = "Earthbound Release/Poems copy/poem11.txt"; sourceTree = SOURCE_ROOT; };
-		49005E1F22EE2CF90020AFD9 /* poem52.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem52.txt; path = "Earthbound Release/Poems copy/poem52.txt"; sourceTree = SOURCE_ROOT; };
-		49005E2022EE2CF90020AFD9 /* poem133.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem133.txt; path = "Earthbound Release/Poems copy/poem133.txt"; sourceTree = SOURCE_ROOT; };
-		49005E2122EE2CF90020AFD9 /* poem60.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem60.txt; path = "Earthbound Release/Poems copy/poem60.txt"; sourceTree = SOURCE_ROOT; };
-		49005E2222EE2CF90020AFD9 /* poem74.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem74.txt; path = "Earthbound Release/Poems copy/poem74.txt"; sourceTree = SOURCE_ROOT; };
-		49005E2322EE2CF90020AFD9 /* poem115.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem115.txt; path = "Earthbound Release/Poems copy/poem115.txt"; sourceTree = SOURCE_ROOT; };
-		49005E2422EE2CF90020AFD9 /* poem31.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem31.txt; path = "Earthbound Release/Poems copy/poem31.txt"; sourceTree = SOURCE_ROOT; };
-		49005E2522EE2CF90020AFD9 /* poem2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem2.txt; path = "Earthbound Release/Poems copy/poem2.txt"; sourceTree = SOURCE_ROOT; };
-		49005E2622EE2CF90020AFD9 /* poem172.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem172.txt; path = "Earthbound Release/Poems copy/poem172.txt"; sourceTree = SOURCE_ROOT; };
-		49005E2722EE2CF90020AFD9 /* poem157.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem157.txt; path = "Earthbound Release/Poems copy/poem157.txt"; sourceTree = SOURCE_ROOT; };
-		49005E2822EE2CF90020AFD9 /* poem82.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem82.txt; path = "Earthbound Release/Poems copy/poem82.txt"; sourceTree = SOURCE_ROOT; };
-		49005E2922EE2CF90020AFD9 /* poem22.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem22.txt; path = "Earthbound Release/Poems copy/poem22.txt"; sourceTree = SOURCE_ROOT; };
-		49005E2A22EE2CFA0020AFD9 /* poem42.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem42.txt; path = "Earthbound Release/Poems copy/poem42.txt"; sourceTree = SOURCE_ROOT; };
-		49005E2B22EE2CFA0020AFD9 /* poem36.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem36.txt; path = "Earthbound Release/Poems copy/poem36.txt"; sourceTree = SOURCE_ROOT; };
-		49005E2C22EE2CFA0020AFD9 /* poem187.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem187.txt; path = "Earthbound Release/Poems copy/poem187.txt"; sourceTree = SOURCE_ROOT; };
-		49005E2D22EE2CFA0020AFD9 /* poem9.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem9.txt; path = "Earthbound Release/Poems copy/poem9.txt"; sourceTree = SOURCE_ROOT; };
-		49005E2E22EE2CFA0020AFD9 /* poem75.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem75.txt; path = "Earthbound Release/Poems copy/poem75.txt"; sourceTree = SOURCE_ROOT; };
-		49005E2F22EE2CFA0020AFD9 /* poem153.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem153.txt; path = "Earthbound Release/Poems copy/poem153.txt"; sourceTree = SOURCE_ROOT; };
-		49005E3022EE2CFA0020AFD9 /* poem130.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem130.txt; path = "Earthbound Release/Poems copy/poem130.txt"; sourceTree = SOURCE_ROOT; };
-		49005E3122EE2CFA0020AFD9 /* poem168.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem168.txt; path = "Earthbound Release/Poems copy/poem168.txt"; sourceTree = SOURCE_ROOT; };
-		49005E3222EE2CFA0020AFD9 /* poem72.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem72.txt; path = "Earthbound Release/Poems copy/poem72.txt"; sourceTree = SOURCE_ROOT; };
-		49005E3322EE2CFA0020AFD9 /* poem51.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem51.txt; path = "Earthbound Release/Poems copy/poem51.txt"; sourceTree = SOURCE_ROOT; };
-		49005E3422EE2CFA0020AFD9 /* poem14.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem14.txt; path = "Earthbound Release/Poems copy/poem14.txt"; sourceTree = SOURCE_ROOT; };
-		49005E3522EE2CFA0020AFD9 /* poem185.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem185.txt; path = "Earthbound Release/Poems copy/poem185.txt"; sourceTree = SOURCE_ROOT; };
-		49005E3622EE2CFA0020AFD9 /* poem127.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem127.txt; path = "Earthbound Release/Poems copy/poem127.txt"; sourceTree = SOURCE_ROOT; };
-		49005E3722EE2CFA0020AFD9 /* poem138.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem138.txt; path = "Earthbound Release/Poems copy/poem138.txt"; sourceTree = SOURCE_ROOT; };
-		49005E3822EE2CFA0020AFD9 /* poem129.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem129.txt; path = "Earthbound Release/Poems copy/poem129.txt"; sourceTree = SOURCE_ROOT; };
-		49005E3922EE2CFA0020AFD9 /* poem117.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem117.txt; path = "Earthbound Release/Poems copy/poem117.txt"; sourceTree = SOURCE_ROOT; };
-		49005E3A22EE2CFA0020AFD9 /* poem183.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem183.txt; path = "Earthbound Release/Poems copy/poem183.txt"; sourceTree = SOURCE_ROOT; };
-		49005E3B22EE2CFA0020AFD9 /* poem50.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem50.txt; path = "Earthbound Release/Poems copy/poem50.txt"; sourceTree = SOURCE_ROOT; };
-		49005E3C22EE2CFA0020AFD9 /* poem18.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem18.txt; path = "Earthbound Release/Poems copy/poem18.txt"; sourceTree = SOURCE_ROOT; };
-		49005E3D22EE2CFA0020AFD9 /* poem17.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem17.txt; path = "Earthbound Release/Poems copy/poem17.txt"; sourceTree = SOURCE_ROOT; };
-		49005E3E22EE2CFA0020AFD9 /* poem29.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem29.txt; path = "Earthbound Release/Poems copy/poem29.txt"; sourceTree = SOURCE_ROOT; };
-		49005E3F22EE2CFA0020AFD9 /* poem116.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem116.txt; path = "Earthbound Release/Poems copy/poem116.txt"; sourceTree = SOURCE_ROOT; };
-		49005E4022EE2CFA0020AFD9 /* poem77.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem77.txt; path = "Earthbound Release/Poems copy/poem77.txt"; sourceTree = SOURCE_ROOT; };
-		49005E4122EE2CFA0020AFD9 /* poem103.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem103.txt; path = "Earthbound Release/Poems copy/poem103.txt"; sourceTree = SOURCE_ROOT; };
-		49005E4222EE2CFA0020AFD9 /* poem178.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem178.txt; path = "Earthbound Release/Poems copy/poem178.txt"; sourceTree = SOURCE_ROOT; };
-		49005E4322EE2CFA0020AFD9 /* poem105.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem105.txt; path = "Earthbound Release/Poems copy/poem105.txt"; sourceTree = SOURCE_ROOT; };
-		49005E4422EE2CFA0020AFD9 /* poem97.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem97.txt; path = "Earthbound Release/Poems copy/poem97.txt"; sourceTree = SOURCE_ROOT; };
-		49005E4522EE2CFA0020AFD9 /* poem91.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem91.txt; path = "Earthbound Release/Poems copy/poem91.txt"; sourceTree = SOURCE_ROOT; };
-		49005E4622EE2CFA0020AFD9 /* poem83.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem83.txt; path = "Earthbound Release/Poems copy/poem83.txt"; sourceTree = SOURCE_ROOT; };
-		49005E4722EE2CFA0020AFD9 /* poem198.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem198.txt; path = "Earthbound Release/Poems copy/poem198.txt"; sourceTree = SOURCE_ROOT; };
-		49005E4822EE2CFA0020AFD9 /* poem195.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem195.txt; path = "Earthbound Release/Poems copy/poem195.txt"; sourceTree = SOURCE_ROOT; };
-		49005E4922EE2CFA0020AFD9 /* poem40.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem40.txt; path = "Earthbound Release/Poems copy/poem40.txt"; sourceTree = SOURCE_ROOT; };
-		49005E4A22EE2CFA0020AFD9 /* poem15.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem15.txt; path = "Earthbound Release/Poems copy/poem15.txt"; sourceTree = SOURCE_ROOT; };
-		49005E4B22EE2CFA0020AFD9 /* poem173.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem173.txt; path = "Earthbound Release/Poems copy/poem173.txt"; sourceTree = SOURCE_ROOT; };
-		49005E4C22EE2CFA0020AFD9 /* poem93.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem93.txt; path = "Earthbound Release/Poems copy/poem93.txt"; sourceTree = SOURCE_ROOT; };
-		49005E4D22EE2CFB0020AFD9 /* poem197.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem197.txt; path = "Earthbound Release/Poems copy/poem197.txt"; sourceTree = SOURCE_ROOT; };
-		49005E4E22EE2CFB0020AFD9 /* poem134.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem134.txt; path = "Earthbound Release/Poems copy/poem134.txt"; sourceTree = SOURCE_ROOT; };
-		49005E4F22EE2CFB0020AFD9 /* poem81.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem81.txt; path = "Earthbound Release/Poems copy/poem81.txt"; sourceTree = SOURCE_ROOT; };
-		49005E5022EE2CFB0020AFD9 /* poem147.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem147.txt; path = "Earthbound Release/Poems copy/poem147.txt"; sourceTree = SOURCE_ROOT; };
-		49005E5122EE2CFB0020AFD9 /* poem159.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem159.txt; path = "Earthbound Release/Poems copy/poem159.txt"; sourceTree = SOURCE_ROOT; };
-		49005E5222EE2CFB0020AFD9 /* poem45.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem45.txt; path = "Earthbound Release/Poems copy/poem45.txt"; sourceTree = SOURCE_ROOT; };
-		49005E5322EE2CFB0020AFD9 /* poem63.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem63.txt; path = "Earthbound Release/Poems copy/poem63.txt"; sourceTree = SOURCE_ROOT; };
-		49005E5422EE2CFB0020AFD9 /* poem54.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem54.txt; path = "Earthbound Release/Poems copy/poem54.txt"; sourceTree = SOURCE_ROOT; };
-		49005E5522EE2CFB0020AFD9 /* poem120.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem120.txt; path = "Earthbound Release/Poems copy/poem120.txt"; sourceTree = SOURCE_ROOT; };
-		49005E5622EE2CFB0020AFD9 /* poem62.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem62.txt; path = "Earthbound Release/Poems copy/poem62.txt"; sourceTree = SOURCE_ROOT; };
-		49005E5722EE2CFB0020AFD9 /* poem33.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem33.txt; path = "Earthbound Release/Poems copy/poem33.txt"; sourceTree = SOURCE_ROOT; };
-		49005E5822EE2CFB0020AFD9 /* poem119.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem119.txt; path = "Earthbound Release/Poems copy/poem119.txt"; sourceTree = SOURCE_ROOT; };
-		49005E5922EE2CFB0020AFD9 /* poem92.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem92.txt; path = "Earthbound Release/Poems copy/poem92.txt"; sourceTree = SOURCE_ROOT; };
-		49005E5A22EE2CFB0020AFD9 /* poem131.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem131.txt; path = "Earthbound Release/Poems copy/poem131.txt"; sourceTree = SOURCE_ROOT; };
-		49005E5B22EE2CFB0020AFD9 /* poem71.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem71.txt; path = "Earthbound Release/Poems copy/poem71.txt"; sourceTree = SOURCE_ROOT; };
-		49005E5C22EE2CFB0020AFD9 /* poem35.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem35.txt; path = "Earthbound Release/Poems copy/poem35.txt"; sourceTree = SOURCE_ROOT; };
-		49005E5D22EE2CFB0020AFD9 /* poem121.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem121.txt; path = "Earthbound Release/Poems copy/poem121.txt"; sourceTree = SOURCE_ROOT; };
-		49005E5E22EE2CFB0020AFD9 /* poem165.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem165.txt; path = "Earthbound Release/Poems copy/poem165.txt"; sourceTree = SOURCE_ROOT; };
-		49005E5F22EE2CFB0020AFD9 /* poem104.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem104.txt; path = "Earthbound Release/Poems copy/poem104.txt"; sourceTree = SOURCE_ROOT; };
-		49005E6022EE2CFB0020AFD9 /* poem39.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem39.txt; path = "Earthbound Release/Poems copy/poem39.txt"; sourceTree = SOURCE_ROOT; };
-		49005E6122EE2CFB0020AFD9 /* poem47.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem47.txt; path = "Earthbound Release/Poems copy/poem47.txt"; sourceTree = SOURCE_ROOT; };
-		49005E6222EE2CFB0020AFD9 /* poem174.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem174.txt; path = "Earthbound Release/Poems copy/poem174.txt"; sourceTree = SOURCE_ROOT; };
-		49005E6322EE2CFB0020AFD9 /* poem148.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem148.txt; path = "Earthbound Release/Poems copy/poem148.txt"; sourceTree = SOURCE_ROOT; };
-		49005E6422EE2CFB0020AFD9 /* poem37.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem37.txt; path = "Earthbound Release/Poems copy/poem37.txt"; sourceTree = SOURCE_ROOT; };
-		49005E6522EE2CFB0020AFD9 /* poem28.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem28.txt; path = "Earthbound Release/Poems copy/poem28.txt"; sourceTree = SOURCE_ROOT; };
-		49005E6622EE2CFB0020AFD9 /* poem108.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem108.txt; path = "Earthbound Release/Poems copy/poem108.txt"; sourceTree = SOURCE_ROOT; };
-		49005E6722EE2CFB0020AFD9 /* poem122.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem122.txt; path = "Earthbound Release/Poems copy/poem122.txt"; sourceTree = SOURCE_ROOT; };
-		49005E6822EE2CFB0020AFD9 /* poem160.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem160.txt; path = "Earthbound Release/Poems copy/poem160.txt"; sourceTree = SOURCE_ROOT; };
-		49005E6922EE2CFB0020AFD9 /* poem124.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem124.txt; path = "Earthbound Release/Poems copy/poem124.txt"; sourceTree = SOURCE_ROOT; };
-		49005E6A22EE2CFB0020AFD9 /* poem56.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem56.txt; path = "Earthbound Release/Poems copy/poem56.txt"; sourceTree = SOURCE_ROOT; };
-		49005E6B22EE2CFB0020AFD9 /* poem88.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem88.txt; path = "Earthbound Release/Poems copy/poem88.txt"; sourceTree = SOURCE_ROOT; };
-		49005E6C22EE2CFB0020AFD9 /* poem186.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem186.txt; path = "Earthbound Release/Poems copy/poem186.txt"; sourceTree = SOURCE_ROOT; };
-		49005E6D22EE2CFB0020AFD9 /* poem175.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem175.txt; path = "Earthbound Release/Poems copy/poem175.txt"; sourceTree = SOURCE_ROOT; };
-		49005E6E22EE2CFB0020AFD9 /* poem7.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem7.txt; path = "Earthbound Release/Poems copy/poem7.txt"; sourceTree = SOURCE_ROOT; };
-		49005E6F22EE2CFB0020AFD9 /* poem163.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem163.txt; path = "Earthbound Release/Poems copy/poem163.txt"; sourceTree = SOURCE_ROOT; };
-		49005E7022EE2CFB0020AFD9 /* poem102.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem102.txt; path = "Earthbound Release/Poems copy/poem102.txt"; sourceTree = SOURCE_ROOT; };
-		49005E7122EE2CFB0020AFD9 /* poem32.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem32.txt; path = "Earthbound Release/Poems copy/poem32.txt"; sourceTree = SOURCE_ROOT; };
-		49005E7222EE2CFB0020AFD9 /* poem23.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem23.txt; path = "Earthbound Release/Poems copy/poem23.txt"; sourceTree = SOURCE_ROOT; };
-		49005E7322EE2CFB0020AFD9 /* poem10.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem10.txt; path = "Earthbound Release/Poems copy/poem10.txt"; sourceTree = SOURCE_ROOT; };
-		49005E7422EE2CFB0020AFD9 /* poem86.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem86.txt; path = "Earthbound Release/Poems copy/poem86.txt"; sourceTree = SOURCE_ROOT; };
-		49005E7522EE2CFB0020AFD9 /* poem94.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem94.txt; path = "Earthbound Release/Poems copy/poem94.txt"; sourceTree = SOURCE_ROOT; };
-		49005E7622EE2CFB0020AFD9 /* poem69.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem69.txt; path = "Earthbound Release/Poems copy/poem69.txt"; sourceTree = SOURCE_ROOT; };
-		49005E7722EE2CFB0020AFD9 /* poem4.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem4.txt; path = "Earthbound Release/Poems copy/poem4.txt"; sourceTree = SOURCE_ROOT; };
-		49005E7822EE2CFB0020AFD9 /* poem151.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem151.txt; path = "Earthbound Release/Poems copy/poem151.txt"; sourceTree = SOURCE_ROOT; };
-		49005E7922EE2CFB0020AFD9 /* poem13.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem13.txt; path = "Earthbound Release/Poems copy/poem13.txt"; sourceTree = SOURCE_ROOT; };
-		49005E7A22EE2CFB0020AFD9 /* poem96.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem96.txt; path = "Earthbound Release/Poems copy/poem96.txt"; sourceTree = SOURCE_ROOT; };
-		49005E7B22EE2CFB0020AFD9 /* poem167.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem167.txt; path = "Earthbound Release/Poems copy/poem167.txt"; sourceTree = SOURCE_ROOT; };
-		49005E7C22EE2CFB0020AFD9 /* poem76.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem76.txt; path = "Earthbound Release/Poems copy/poem76.txt"; sourceTree = SOURCE_ROOT; };
-		49005E7D22EE2CFB0020AFD9 /* poem100.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem100.txt; path = "Earthbound Release/Poems copy/poem100.txt"; sourceTree = SOURCE_ROOT; };
-		49005E7E22EE2CFB0020AFD9 /* poem176.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem176.txt; path = "Earthbound Release/Poems copy/poem176.txt"; sourceTree = SOURCE_ROOT; };
-		49005E7F22EE2CFB0020AFD9 /* poem58.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem58.txt; path = "Earthbound Release/Poems copy/poem58.txt"; sourceTree = SOURCE_ROOT; };
-		49005E8022EE2CFB0020AFD9 /* poem64.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem64.txt; path = "Earthbound Release/Poems copy/poem64.txt"; sourceTree = SOURCE_ROOT; };
-		49005E8122EE2CFC0020AFD9 /* poem107.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem107.txt; path = "Earthbound Release/Poems copy/poem107.txt"; sourceTree = SOURCE_ROOT; };
-		49005E8222EE2CFC0020AFD9 /* poem190.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem190.txt; path = "Earthbound Release/Poems copy/poem190.txt"; sourceTree = SOURCE_ROOT; };
-		49005E8322EE2CFC0020AFD9 /* poem106.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem106.txt; path = "Earthbound Release/Poems copy/poem106.txt"; sourceTree = SOURCE_ROOT; };
-		49005E8422EE2CFC0020AFD9 /* poem135.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem135.txt; path = "Earthbound Release/Poems copy/poem135.txt"; sourceTree = SOURCE_ROOT; };
-		49005E8522EE2CFC0020AFD9 /* poem57.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem57.txt; path = "Earthbound Release/Poems copy/poem57.txt"; sourceTree = SOURCE_ROOT; };
-		49005E8622EE2CFC0020AFD9 /* poem68.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem68.txt; path = "Earthbound Release/Poems copy/poem68.txt"; sourceTree = SOURCE_ROOT; };
-		49005E8722EE2CFC0020AFD9 /* poem142.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem142.txt; path = "Earthbound Release/Poems copy/poem142.txt"; sourceTree = SOURCE_ROOT; };
-		49005E8822EE2CFC0020AFD9 /* poem89.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem89.txt; path = "Earthbound Release/Poems copy/poem89.txt"; sourceTree = SOURCE_ROOT; };
-		49005E8922EE2CFC0020AFD9 /* poem41.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem41.txt; path = "Earthbound Release/Poems copy/poem41.txt"; sourceTree = SOURCE_ROOT; };
-		49005E8A22EE2CFC0020AFD9 /* poem166.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem166.txt; path = "Earthbound Release/Poems copy/poem166.txt"; sourceTree = SOURCE_ROOT; };
-		49005E8B22EE2CFC0020AFD9 /* poem139.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem139.txt; path = "Earthbound Release/Poems copy/poem139.txt"; sourceTree = SOURCE_ROOT; };
-		49005E8C22EE2CFC0020AFD9 /* poem79.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem79.txt; path = "Earthbound Release/Poems copy/poem79.txt"; sourceTree = SOURCE_ROOT; };
-		49005E8D22EE2CFC0020AFD9 /* poem61.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem61.txt; path = "Earthbound Release/Poems copy/poem61.txt"; sourceTree = SOURCE_ROOT; };
-		49005E8E22EE2CFC0020AFD9 /* poem182.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem182.txt; path = "Earthbound Release/Poems copy/poem182.txt"; sourceTree = SOURCE_ROOT; };
-		49005E8F22EE2CFC0020AFD9 /* poem65.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem65.txt; path = "Earthbound Release/Poems copy/poem65.txt"; sourceTree = SOURCE_ROOT; };
-		49005E9022EE2CFD0020AFD9 /* poem201.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem201.txt; path = "Earthbound Release/Poems copy/poem201.txt"; sourceTree = SOURCE_ROOT; };
-		49005E9122EE2CFD0020AFD9 /* poem19.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem19.txt; path = "Earthbound Release/Poems copy/poem19.txt"; sourceTree = SOURCE_ROOT; };
-		49005E9222EE2CFD0020AFD9 /* poem109.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem109.txt; path = "Earthbound Release/Poems copy/poem109.txt"; sourceTree = SOURCE_ROOT; };
-		49005E9322EE2CFD0020AFD9 /* poem188.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem188.txt; path = "Earthbound Release/Poems copy/poem188.txt"; sourceTree = SOURCE_ROOT; };
-		49005E9422EE2CFD0020AFD9 /* poem169.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem169.txt; path = "Earthbound Release/Poems copy/poem169.txt"; sourceTree = SOURCE_ROOT; };
-		49005E9522EE2CFD0020AFD9 /* poem3.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem3.txt; path = "Earthbound Release/Poems copy/poem3.txt"; sourceTree = SOURCE_ROOT; };
-		49005E9622EE2CFD0020AFD9 /* poem6.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem6.txt; path = "Earthbound Release/Poems copy/poem6.txt"; sourceTree = SOURCE_ROOT; };
-		49005E9722EE2CFD0020AFD9 /* poem24.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem24.txt; path = "Earthbound Release/Poems copy/poem24.txt"; sourceTree = SOURCE_ROOT; };
-		49005E9822EE2CFD0020AFD9 /* poem95.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem95.txt; path = "Earthbound Release/Poems copy/poem95.txt"; sourceTree = SOURCE_ROOT; };
-		49005E9922EE2CFD0020AFD9 /* poem66.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem66.txt; path = "Earthbound Release/Poems copy/poem66.txt"; sourceTree = SOURCE_ROOT; };
-		49005E9A22EE2CFD0020AFD9 /* poem171.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem171.txt; path = "Earthbound Release/Poems copy/poem171.txt"; sourceTree = SOURCE_ROOT; };
-		49005E9B22EE2CFD0020AFD9 /* poem152.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem152.txt; path = "Earthbound Release/Poems copy/poem152.txt"; sourceTree = SOURCE_ROOT; };
-		49005E9C22EE2CFE0020AFD9 /* poem5.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem5.txt; path = "Earthbound Release/Poems copy/poem5.txt"; sourceTree = SOURCE_ROOT; };
-		49005E9D22EE2CFE0020AFD9 /* poem21.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem21.txt; path = "Earthbound Release/Poems copy/poem21.txt"; sourceTree = SOURCE_ROOT; };
-		49005E9E22EE2CFE0020AFD9 /* poem67.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem67.txt; path = "Earthbound Release/Poems copy/poem67.txt"; sourceTree = SOURCE_ROOT; };
-		49005E9F22EE2CFE0020AFD9 /* poem8.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem8.txt; path = "Earthbound Release/Poems copy/poem8.txt"; sourceTree = SOURCE_ROOT; };
-		49005EA022EE2CFE0020AFD9 /* poem38.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem38.txt; path = "Earthbound Release/Poems copy/poem38.txt"; sourceTree = SOURCE_ROOT; };
-		49005EA122EE2CFE0020AFD9 /* poem34.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem34.txt; path = "Earthbound Release/Poems copy/poem34.txt"; sourceTree = SOURCE_ROOT; };
-		49005EA222EE2CFE0020AFD9 /* poem141.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem141.txt; path = "Earthbound Release/Poems copy/poem141.txt"; sourceTree = SOURCE_ROOT; };
-		49005EA322EE2CFE0020AFD9 /* poem25.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem25.txt; path = "Earthbound Release/Poems copy/poem25.txt"; sourceTree = SOURCE_ROOT; };
-		49005EA422EE2CFE0020AFD9 /* poem194.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem194.txt; path = "Earthbound Release/Poems copy/poem194.txt"; sourceTree = SOURCE_ROOT; };
-		49005EA522EE2CFE0020AFD9 /* poem179.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem179.txt; path = "Earthbound Release/Poems copy/poem179.txt"; sourceTree = SOURCE_ROOT; };
-		49005EA622EE2CFE0020AFD9 /* poem140.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem140.txt; path = "Earthbound Release/Poems copy/poem140.txt"; sourceTree = SOURCE_ROOT; };
-		49005EA722EE2CFE0020AFD9 /* poem46.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem46.txt; path = "Earthbound Release/Poems copy/poem46.txt"; sourceTree = SOURCE_ROOT; };
-		49005EA822EE2CFF0020AFD9 /* poem27.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem27.txt; path = "Earthbound Release/Poems copy/poem27.txt"; sourceTree = SOURCE_ROOT; };
-		49005EA922EE2CFF0020AFD9 /* poem16.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem16.txt; path = "Earthbound Release/Poems copy/poem16.txt"; sourceTree = SOURCE_ROOT; };
-		49005EAA22EE2CFF0020AFD9 /* poem112.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem112.txt; path = "Earthbound Release/Poems copy/poem112.txt"; sourceTree = SOURCE_ROOT; };
-		49005EAB22EE2CFF0020AFD9 /* poem98.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem98.txt; path = "Earthbound Release/Poems copy/poem98.txt"; sourceTree = SOURCE_ROOT; };
-		49005EAC22EE2CFF0020AFD9 /* poem191.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem191.txt; path = "Earthbound Release/Poems copy/poem191.txt"; sourceTree = SOURCE_ROOT; };
-		49005EAD22EE2CFF0020AFD9 /* poem200.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem200.txt; path = "Earthbound Release/Poems copy/poem200.txt"; sourceTree = SOURCE_ROOT; };
-		49005EAE22EE2CFF0020AFD9 /* poem78.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem78.txt; path = "Earthbound Release/Poems copy/poem78.txt"; sourceTree = SOURCE_ROOT; };
-		49005EAF22EE2CFF0020AFD9 /* poem154.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem154.txt; path = "Earthbound Release/Poems copy/poem154.txt"; sourceTree = SOURCE_ROOT; };
-		49005EB022EE2CFF0020AFD9 /* poem113.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem113.txt; path = "Earthbound Release/Poems copy/poem113.txt"; sourceTree = SOURCE_ROOT; };
-		49005EB122EE2CFF0020AFD9 /* poem80.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem80.txt; path = "Earthbound Release/Poems copy/poem80.txt"; sourceTree = SOURCE_ROOT; };
-		49005EB222EE2CFF0020AFD9 /* poem132.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem132.txt; path = "Earthbound Release/Poems copy/poem132.txt"; sourceTree = SOURCE_ROOT; };
-		49005EB322EE2CFF0020AFD9 /* poem177.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem177.txt; path = "Earthbound Release/Poems copy/poem177.txt"; sourceTree = SOURCE_ROOT; };
-		49005EB422EE2D000020AFD9 /* poem149.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem149.txt; path = "Earthbound Release/Poems copy/poem149.txt"; sourceTree = SOURCE_ROOT; };
-		49005EB522EE2D000020AFD9 /* poem144.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem144.txt; path = "Earthbound Release/Poems copy/poem144.txt"; sourceTree = SOURCE_ROOT; };
-		49005EB622EE2D000020AFD9 /* poem146.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem146.txt; path = "Earthbound Release/Poems copy/poem146.txt"; sourceTree = SOURCE_ROOT; };
-		49005EB722EE2D000020AFD9 /* poem53.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem53.txt; path = "Earthbound Release/Poems copy/poem53.txt"; sourceTree = SOURCE_ROOT; };
-		49005EB822EE2D000020AFD9 /* poem114.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem114.txt; path = "Earthbound Release/Poems copy/poem114.txt"; sourceTree = SOURCE_ROOT; };
-		49005EB922EE2D000020AFD9 /* poem48.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem48.txt; path = "Earthbound Release/Poems copy/poem48.txt"; sourceTree = SOURCE_ROOT; };
-		49005EBA22EE2D000020AFD9 /* poem126.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem126.txt; path = "Earthbound Release/Poems copy/poem126.txt"; sourceTree = SOURCE_ROOT; };
-		49005EBB22EE2D000020AFD9 /* poem111.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem111.txt; path = "Earthbound Release/Poems copy/poem111.txt"; sourceTree = SOURCE_ROOT; };
-		49005EBC22EE2D000020AFD9 /* poem161.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem161.txt; path = "Earthbound Release/Poems copy/poem161.txt"; sourceTree = SOURCE_ROOT; };
-		49005EBD22EE2D010020AFD9 /* poem189.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem189.txt; path = "Earthbound Release/Poems copy/poem189.txt"; sourceTree = SOURCE_ROOT; };
-		49005EBE22EE2D010020AFD9 /* poem59.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem59.txt; path = "Earthbound Release/Poems copy/poem59.txt"; sourceTree = SOURCE_ROOT; };
-		49005EBF22EE2D010020AFD9 /* poem155.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem155.txt; path = "Earthbound Release/Poems copy/poem155.txt"; sourceTree = SOURCE_ROOT; };
-		49005EC022EE2D010020AFD9 /* poem20.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem20.txt; path = "Earthbound Release/Poems copy/poem20.txt"; sourceTree = SOURCE_ROOT; };
-		49005EC122EE2D010020AFD9 /* poem143.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem143.txt; path = "Earthbound Release/Poems copy/poem143.txt"; sourceTree = SOURCE_ROOT; };
-		49005EC222EE2D020020AFD9 /* poem180.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem180.txt; path = "Earthbound Release/Poems copy/poem180.txt"; sourceTree = SOURCE_ROOT; };
-		49005EC322EE2D020020AFD9 /* poem145.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem145.txt; path = "Earthbound Release/Poems copy/poem145.txt"; sourceTree = SOURCE_ROOT; };
-		49005EC422EE2D020020AFD9 /* poem150.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem150.txt; path = "Earthbound Release/Poems copy/poem150.txt"; sourceTree = SOURCE_ROOT; };
-		49005EC522EE2D020020AFD9 /* poem110.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem110.txt; path = "Earthbound Release/Poems copy/poem110.txt"; sourceTree = SOURCE_ROOT; };
-		49005EC622EE2D020020AFD9 /* poem12.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem12.txt; path = "Earthbound Release/Poems copy/poem12.txt"; sourceTree = SOURCE_ROOT; };
-		49005EC722EE2D020020AFD9 /* poem84.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem84.txt; path = "Earthbound Release/Poems copy/poem84.txt"; sourceTree = SOURCE_ROOT; };
-		49005EC822EE2D020020AFD9 /* poem193.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem193.txt; path = "Earthbound Release/Poems copy/poem193.txt"; sourceTree = SOURCE_ROOT; };
-		49005EC922EE2D020020AFD9 /* poem26.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem26.txt; path = "Earthbound Release/Poems copy/poem26.txt"; sourceTree = SOURCE_ROOT; };
-		49005ECA22EE2D020020AFD9 /* poem44.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem44.txt; path = "Earthbound Release/Poems copy/poem44.txt"; sourceTree = SOURCE_ROOT; };
-		49005ECB22EE2D020020AFD9 /* poem49.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem49.txt; path = "Earthbound Release/Poems copy/poem49.txt"; sourceTree = SOURCE_ROOT; };
-		49005ECC22EE2D020020AFD9 /* poem136.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem136.txt; path = "Earthbound Release/Poems copy/poem136.txt"; sourceTree = SOURCE_ROOT; };
-		49005ECD22EE2D020020AFD9 /* poem164.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem164.txt; path = "Earthbound Release/Poems copy/poem164.txt"; sourceTree = SOURCE_ROOT; };
-		49005ECE22EE2D030020AFD9 /* poem196.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem196.txt; path = "Earthbound Release/Poems copy/poem196.txt"; sourceTree = SOURCE_ROOT; };
-		49005ECF22EE2D030020AFD9 /* poem192.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem192.txt; path = "Earthbound Release/Poems copy/poem192.txt"; sourceTree = SOURCE_ROOT; };
-		49005ED022EE2D030020AFD9 /* poem1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem1.txt; path = "Earthbound Release/Poems copy/poem1.txt"; sourceTree = SOURCE_ROOT; };
-		49005ED122EE2D030020AFD9 /* poem184.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem184.txt; path = "Earthbound Release/Poems copy/poem184.txt"; sourceTree = SOURCE_ROOT; };
-		49005ED222EE2D030020AFD9 /* poem199.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem199.txt; path = "Earthbound Release/Poems copy/poem199.txt"; sourceTree = SOURCE_ROOT; };
-		49005ED322EE2D030020AFD9 /* poem43.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = poem43.txt; path = "Earthbound Release/Poems copy/poem43.txt"; sourceTree = SOURCE_ROOT; };
 		49005F9922EE31A10020AFD9 /* FrameImages.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = FrameImages.xcassets; path = "../../../../../System/Volumes/Data/Users/andrew/Developer/Earthbound Release/Earthbound Release/FrameImages.xcassets"; sourceTree = "<group>"; };
-		4901EA3622ED701A002049B3 /* CoverPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CoverPage.swift; path = "../../../../../../System/Volumes/Data/Users/andrew/Developer/Earthbound Release/Earthbound Release/Views/CoverPage.swift"; sourceTree = "<group>"; };
-		4901EA3822ED7598002049B3 /* ThemeComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ThemeComponents.swift; path = "../../../../../../System/Volumes/Data/Users/andrew/Developer/Earthbound Release/Earthbound Release/Model/ThemeComponents.swift"; sourceTree = "<group>"; };
-		49026D3E2384428D00445FFB /* FrameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameView.swift; sourceTree = SOURCE_ROOT; };
-		49026D4023844D0800445FFB /* ButtonTo_PoemTitleListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ButtonTo_PoemTitleListView.swift; path = "Earthbound Release/ButtonTo_PoemTitleListView.swift"; sourceTree = SOURCE_ROOT; };
-		490F9B4F238C7D8900CF8D93 /* PoemCD+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PoemCD+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
-		490F9B50238C7D8900CF8D93 /* PoemCD+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PoemCD+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
-		4933AB3F238E909E00058D9E /* UserSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSettings.swift; sourceTree = "<group>"; };
-		4933AB41238E90E200058D9E /* UserDefault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefault.swift; sourceTree = "<group>"; };
-		4966DE122376EC050092CF77 /* TitlePreviewCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitlePreviewCard.swift; sourceTree = SOURCE_ROOT; };
 		4966DE152376F8E80092CF77 /* Earthbound_Release.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Earthbound_Release.xcdatamodel; sourceTree = "<group>"; };
-		496B20452389EC2100559168 /* ShapesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapesView.swift; sourceTree = "<group>"; };
+		496B74BE23E9BD9F002EC5B6 /* Persistence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		496B74C023E9BE8E002EC5B6 /* PoemCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoemCellView.swift; sourceTree = "<group>"; };
 		49A36B2F22AD14670021EEE3 /* Earthbound Release.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Earthbound Release.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		49A36B3222AD14670021EEE3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		49A36B3422AD14670021EEE3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -444,10 +45,13 @@
 		49A36B3B22AD14680021EEE3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		49A36B3E22AD14680021EEE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		49A36B4022AD14680021EEE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		49A36B4B22AD15E80021EEE3 /* PoemCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoemCellView.swift; sourceTree = "<group>"; };
 		49A36B4D22AD17090021EEE3 /* Poem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Poem.swift; sourceTree = "<group>"; };
 		49CF579322ED9F8B0087294C /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppState.swift; path = "../../../../../../System/Volumes/Data/Users/andrew/Developer/Earthbound Release/Earthbound Release/Model/AppState.swift"; sourceTree = "<group>"; };
-		49CF579722EDA2860087294C /* PoemDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PoemDetail.swift; path = "../../../../../../System/Volumes/Data/Users/andrew/Developer/Earthbound Release/Earthbound Release/Views/PoemDetail.swift"; sourceTree = "<group>"; };
+		49D8BDE223E762AA00B40784 /* BookCoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookCoverView.swift; sourceTree = "<group>"; };
+		49D8BDE423E762D300B40784 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		49D8BDEA23E7634200B40784 /* Earthbound ReleaseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Earthbound ReleaseTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		49D8BDEC23E7634200B40784 /* Earthbound_ReleaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Earthbound_ReleaseTests.swift; sourceTree = "<group>"; };
+		49D8BDEE23E7634200B40784 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -458,217 +62,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		49D8BDE723E7634200B40784 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		49005E0E22EE2CD70020AFD9 /* PoemDocs */ = {
-			isa = PBXGroup;
-			children = (
-				49005ED022EE2D030020AFD9 /* poem1.txt */,
-				49005E2522EE2CF90020AFD9 /* poem2.txt */,
-				49005E9522EE2CFD0020AFD9 /* poem3.txt */,
-				49005E7722EE2CFB0020AFD9 /* poem4.txt */,
-				49005E9C22EE2CFE0020AFD9 /* poem5.txt */,
-				49005E9622EE2CFD0020AFD9 /* poem6.txt */,
-				49005E6E22EE2CFB0020AFD9 /* poem7.txt */,
-				49005E9F22EE2CFE0020AFD9 /* poem8.txt */,
-				49005E2D22EE2CFA0020AFD9 /* poem9.txt */,
-				49005E7322EE2CFB0020AFD9 /* poem10.txt */,
-				49005E1E22EE2CF90020AFD9 /* poem11.txt */,
-				49005EC622EE2D020020AFD9 /* poem12.txt */,
-				49005E7922EE2CFB0020AFD9 /* poem13.txt */,
-				49005E3422EE2CFA0020AFD9 /* poem14.txt */,
-				49005E4A22EE2CFA0020AFD9 /* poem15.txt */,
-				49005EA922EE2CFF0020AFD9 /* poem16.txt */,
-				49005E3D22EE2CFA0020AFD9 /* poem17.txt */,
-				49005E3C22EE2CFA0020AFD9 /* poem18.txt */,
-				49005E9122EE2CFD0020AFD9 /* poem19.txt */,
-				49005EC022EE2D010020AFD9 /* poem20.txt */,
-				49005E9D22EE2CFE0020AFD9 /* poem21.txt */,
-				49005E2922EE2CF90020AFD9 /* poem22.txt */,
-				49005E7222EE2CFB0020AFD9 /* poem23.txt */,
-				49005E9722EE2CFD0020AFD9 /* poem24.txt */,
-				49005EA322EE2CFE0020AFD9 /* poem25.txt */,
-				49005EC922EE2D020020AFD9 /* poem26.txt */,
-				49005EA822EE2CFF0020AFD9 /* poem27.txt */,
-				49005E6522EE2CFB0020AFD9 /* poem28.txt */,
-				49005E3E22EE2CFA0020AFD9 /* poem29.txt */,
-				49005E1822EE2CF80020AFD9 /* poem30.txt */,
-				49005E2422EE2CF90020AFD9 /* poem31.txt */,
-				49005E7122EE2CFB0020AFD9 /* poem32.txt */,
-				49005E5722EE2CFB0020AFD9 /* poem33.txt */,
-				49005EA122EE2CFE0020AFD9 /* poem34.txt */,
-				49005E5C22EE2CFB0020AFD9 /* poem35.txt */,
-				49005E2B22EE2CFA0020AFD9 /* poem36.txt */,
-				49005E6422EE2CFB0020AFD9 /* poem37.txt */,
-				49005EA022EE2CFE0020AFD9 /* poem38.txt */,
-				49005E6022EE2CFB0020AFD9 /* poem39.txt */,
-				49005E4922EE2CFA0020AFD9 /* poem40.txt */,
-				49005E8922EE2CFC0020AFD9 /* poem41.txt */,
-				49005E2A22EE2CFA0020AFD9 /* poem42.txt */,
-				49005ED322EE2D030020AFD9 /* poem43.txt */,
-				49005ECA22EE2D020020AFD9 /* poem44.txt */,
-				49005E5222EE2CFB0020AFD9 /* poem45.txt */,
-				49005EA722EE2CFE0020AFD9 /* poem46.txt */,
-				49005E6122EE2CFB0020AFD9 /* poem47.txt */,
-				49005EB922EE2D000020AFD9 /* poem48.txt */,
-				49005ECB22EE2D020020AFD9 /* poem49.txt */,
-				49005E3B22EE2CFA0020AFD9 /* poem50.txt */,
-				49005E3322EE2CFA0020AFD9 /* poem51.txt */,
-				49005E1F22EE2CF90020AFD9 /* poem52.txt */,
-				49005EB722EE2D000020AFD9 /* poem53.txt */,
-				49005E5422EE2CFB0020AFD9 /* poem54.txt */,
-				49005E1122EE2CF80020AFD9 /* poem55.txt */,
-				49005E6A22EE2CFB0020AFD9 /* poem56.txt */,
-				49005E8522EE2CFC0020AFD9 /* poem57.txt */,
-				49005E7F22EE2CFB0020AFD9 /* poem58.txt */,
-				49005EBE22EE2D010020AFD9 /* poem59.txt */,
-				49005E2122EE2CF90020AFD9 /* poem60.txt */,
-				49005E8D22EE2CFC0020AFD9 /* poem61.txt */,
-				49005E5622EE2CFB0020AFD9 /* poem62.txt */,
-				49005E5322EE2CFB0020AFD9 /* poem63.txt */,
-				49005E8022EE2CFB0020AFD9 /* poem64.txt */,
-				49005E8F22EE2CFC0020AFD9 /* poem65.txt */,
-				49005E9922EE2CFD0020AFD9 /* poem66.txt */,
-				49005E9E22EE2CFE0020AFD9 /* poem67.txt */,
-				49005E8622EE2CFC0020AFD9 /* poem68.txt */,
-				49005E7622EE2CFB0020AFD9 /* poem69.txt */,
-				49005E5B22EE2CFB0020AFD9 /* poem71.txt */,
-				49005E3222EE2CFA0020AFD9 /* poem72.txt */,
-				49005E2222EE2CF90020AFD9 /* poem74.txt */,
-				49005E2E22EE2CFA0020AFD9 /* poem75.txt */,
-				49005E7C22EE2CFB0020AFD9 /* poem76.txt */,
-				49005E4022EE2CFA0020AFD9 /* poem77.txt */,
-				49005EAE22EE2CFF0020AFD9 /* poem78.txt */,
-				49005E8C22EE2CFC0020AFD9 /* poem79.txt */,
-				49005EB122EE2CFF0020AFD9 /* poem80.txt */,
-				49005E4F22EE2CFB0020AFD9 /* poem81.txt */,
-				49005E2822EE2CF90020AFD9 /* poem82.txt */,
-				49005E4622EE2CFA0020AFD9 /* poem83.txt */,
-				49005EC722EE2D020020AFD9 /* poem84.txt */,
-				49005E1022EE2CF80020AFD9 /* poem85.txt */,
-				49005E7422EE2CFB0020AFD9 /* poem86.txt */,
-				49005E6B22EE2CFB0020AFD9 /* poem88.txt */,
-				49005E8822EE2CFC0020AFD9 /* poem89.txt */,
-				49005E1522EE2CF80020AFD9 /* poem90.txt */,
-				49005E4522EE2CFA0020AFD9 /* poem91.txt */,
-				49005E5922EE2CFB0020AFD9 /* poem92.txt */,
-				49005E4C22EE2CFA0020AFD9 /* poem93.txt */,
-				49005E7522EE2CFB0020AFD9 /* poem94.txt */,
-				49005E9822EE2CFD0020AFD9 /* poem95.txt */,
-				49005E7A22EE2CFB0020AFD9 /* poem96.txt */,
-				49005E4422EE2CFA0020AFD9 /* poem97.txt */,
-				49005EAB22EE2CFF0020AFD9 /* poem98.txt */,
-				49005E1D22EE2CF90020AFD9 /* poem99.txt */,
-				49005E7D22EE2CFB0020AFD9 /* poem100.txt */,
-				49005E1B22EE2CF80020AFD9 /* poem101.txt */,
-				49005E7022EE2CFB0020AFD9 /* poem102.txt */,
-				49005E4122EE2CFA0020AFD9 /* poem103.txt */,
-				49005E5F22EE2CFB0020AFD9 /* poem104.txt */,
-				49005E4322EE2CFA0020AFD9 /* poem105.txt */,
-				49005E8322EE2CFC0020AFD9 /* poem106.txt */,
-				49005E8122EE2CFC0020AFD9 /* poem107.txt */,
-				49005E6622EE2CFB0020AFD9 /* poem108.txt */,
-				49005E9222EE2CFD0020AFD9 /* poem109.txt */,
-				49005EC522EE2D020020AFD9 /* poem110.txt */,
-				49005EBB22EE2D000020AFD9 /* poem111.txt */,
-				49005EAA22EE2CFF0020AFD9 /* poem112.txt */,
-				49005EB022EE2CFF0020AFD9 /* poem113.txt */,
-				49005EB822EE2D000020AFD9 /* poem114.txt */,
-				49005E2322EE2CF90020AFD9 /* poem115.txt */,
-				49005E3F22EE2CFA0020AFD9 /* poem116.txt */,
-				49005E3922EE2CFA0020AFD9 /* poem117.txt */,
-				49005E1622EE2CF80020AFD9 /* poem118.txt */,
-				49005E5822EE2CFB0020AFD9 /* poem119.txt */,
-				49005E5522EE2CFB0020AFD9 /* poem120.txt */,
-				49005E5D22EE2CFB0020AFD9 /* poem121.txt */,
-				49005E6722EE2CFB0020AFD9 /* poem122.txt */,
-				49005E1322EE2CF80020AFD9 /* poem123.txt */,
-				49005E6922EE2CFB0020AFD9 /* poem124.txt */,
-				49005EBA22EE2D000020AFD9 /* poem126.txt */,
-				49005E3622EE2CFA0020AFD9 /* poem127.txt */,
-				49005E1722EE2CF80020AFD9 /* poem128.txt */,
-				49005E3822EE2CFA0020AFD9 /* poem129.txt */,
-				49005E3022EE2CFA0020AFD9 /* poem130.txt */,
-				49005E5A22EE2CFB0020AFD9 /* poem131.txt */,
-				49005EB222EE2CFF0020AFD9 /* poem132.txt */,
-				49005E2022EE2CF90020AFD9 /* poem133.txt */,
-				49005E4E22EE2CFB0020AFD9 /* poem134.txt */,
-				49005E8422EE2CFC0020AFD9 /* poem135.txt */,
-				49005ECC22EE2D020020AFD9 /* poem136.txt */,
-				49005E1222EE2CF80020AFD9 /* poem137.txt */,
-				49005E3722EE2CFA0020AFD9 /* poem138.txt */,
-				49005E8B22EE2CFC0020AFD9 /* poem139.txt */,
-				49005EA622EE2CFE0020AFD9 /* poem140.txt */,
-				49005EA222EE2CFE0020AFD9 /* poem141.txt */,
-				49005E8722EE2CFC0020AFD9 /* poem142.txt */,
-				49005EC122EE2D010020AFD9 /* poem143.txt */,
-				49005EB522EE2D000020AFD9 /* poem144.txt */,
-				49005EC322EE2D020020AFD9 /* poem145.txt */,
-				49005EB622EE2D000020AFD9 /* poem146.txt */,
-				49005E5022EE2CFB0020AFD9 /* poem147.txt */,
-				49005E6322EE2CFB0020AFD9 /* poem148.txt */,
-				49005EB422EE2D000020AFD9 /* poem149.txt */,
-				49005EC422EE2D020020AFD9 /* poem150.txt */,
-				49005E7822EE2CFB0020AFD9 /* poem151.txt */,
-				49005E9B22EE2CFD0020AFD9 /* poem152.txt */,
-				49005E2F22EE2CFA0020AFD9 /* poem153.txt */,
-				49005EAF22EE2CFF0020AFD9 /* poem154.txt */,
-				49005EBF22EE2D010020AFD9 /* poem155.txt */,
-				49005E1C22EE2CF90020AFD9 /* poem156.txt */,
-				49005E2722EE2CF90020AFD9 /* poem157.txt */,
-				49005E1922EE2CF80020AFD9 /* poem158.txt */,
-				49005E5122EE2CFB0020AFD9 /* poem159.txt */,
-				49005E6822EE2CFB0020AFD9 /* poem160.txt */,
-				49005EBC22EE2D000020AFD9 /* poem161.txt */,
-				49005E0F22EE2CF80020AFD9 /* poem162.txt */,
-				49005E6F22EE2CFB0020AFD9 /* poem163.txt */,
-				49005ECD22EE2D020020AFD9 /* poem164.txt */,
-				49005E5E22EE2CFB0020AFD9 /* poem165.txt */,
-				49005E8A22EE2CFC0020AFD9 /* poem166.txt */,
-				49005E7B22EE2CFB0020AFD9 /* poem167.txt */,
-				49005E3122EE2CFA0020AFD9 /* poem168.txt */,
-				49005E9422EE2CFD0020AFD9 /* poem169.txt */,
-				49005E1422EE2CF80020AFD9 /* poem170.txt */,
-				49005E9A22EE2CFD0020AFD9 /* poem171.txt */,
-				49005E2622EE2CF90020AFD9 /* poem172.txt */,
-				49005E4B22EE2CFA0020AFD9 /* poem173.txt */,
-				49005E6222EE2CFB0020AFD9 /* poem174.txt */,
-				49005E6D22EE2CFB0020AFD9 /* poem175.txt */,
-				49005E7E22EE2CFB0020AFD9 /* poem176.txt */,
-				49005EB322EE2CFF0020AFD9 /* poem177.txt */,
-				49005E4222EE2CFA0020AFD9 /* poem178.txt */,
-				49005EA522EE2CFE0020AFD9 /* poem179.txt */,
-				49005EC222EE2D020020AFD9 /* poem180.txt */,
-				49005E1A22EE2CF80020AFD9 /* poem181.txt */,
-				49005E8E22EE2CFC0020AFD9 /* poem182.txt */,
-				49005E3A22EE2CFA0020AFD9 /* poem183.txt */,
-				49005ED122EE2D030020AFD9 /* poem184.txt */,
-				49005E3522EE2CFA0020AFD9 /* poem185.txt */,
-				49005E6C22EE2CFB0020AFD9 /* poem186.txt */,
-				49005E2C22EE2CFA0020AFD9 /* poem187.txt */,
-				49005E9322EE2CFD0020AFD9 /* poem188.txt */,
-				49005EBD22EE2D010020AFD9 /* poem189.txt */,
-				49005E8222EE2CFC0020AFD9 /* poem190.txt */,
-				49005EAC22EE2CFF0020AFD9 /* poem191.txt */,
-				49005ECF22EE2D030020AFD9 /* poem192.txt */,
-				49005EC822EE2D020020AFD9 /* poem193.txt */,
-				49005EA422EE2CFE0020AFD9 /* poem194.txt */,
-				49005E4822EE2CFA0020AFD9 /* poem195.txt */,
-				49005ECE22EE2D030020AFD9 /* poem196.txt */,
-				49005E4D22EE2CFB0020AFD9 /* poem197.txt */,
-				49005E4722EE2CFA0020AFD9 /* poem198.txt */,
-				49005ED222EE2D030020AFD9 /* poem199.txt */,
-				49005EAD22EE2CFF0020AFD9 /* poem200.txt */,
-				49005E9022EE2CFD0020AFD9 /* poem201.txt */,
-			);
-			path = PoemDocs;
-			sourceTree = "<group>";
-		};
 		49A36B2622AD14670021EEE3 = {
 			isa = PBXGroup;
 			children = (
 				49A36B3122AD14670021EEE3 /* Earthbound Release */,
+				49D8BDEB23E7634200B40784 /* Earthbound ReleaseTests */,
 				49A36B3022AD14670021EEE3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -677,6 +85,7 @@
 			isa = PBXGroup;
 			children = (
 				49A36B2F22AD14670021EEE3 /* Earthbound Release.app */,
+				49D8BDEA23E7634200B40784 /* Earthbound ReleaseTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -684,9 +93,6 @@
 		49A36B3122AD14670021EEE3 /* Earthbound Release */ = {
 			isa = PBXGroup;
 			children = (
-				490F9B4F238C7D8900CF8D93 /* PoemCD+CoreDataClass.swift */,
-				490F9B50238C7D8900CF8D93 /* PoemCD+CoreDataProperties.swift */,
-				49005E0E22EE2CD70020AFD9 /* PoemDocs */,
 				49A36B3222AD14670021EEE3 /* AppDelegate.swift */,
 				49A36B3422AD14670021EEE3 /* SceneDelegate.swift */,
 				49A36B3822AD14680021EEE3 /* Assets.xcassets */,
@@ -712,13 +118,9 @@
 		49A36B4A22AD15CB0021EEE3 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				49026D3E2384428D00445FFB /* FrameView.swift */,
-				49A36B4B22AD15E80021EEE3 /* PoemCellView.swift */,
-				4901EA3622ED701A002049B3 /* CoverPage.swift */,
-				496B20452389EC2100559168 /* ShapesView.swift */,
-				49026D4023844D0800445FFB /* ButtonTo_PoemTitleListView.swift */,
-				4966DE122376EC050092CF77 /* TitlePreviewCard.swift */,
-				49CF579722EDA2860087294C /* PoemDetail.swift */,
+				49D8BDE223E762AA00B40784 /* BookCoverView.swift */,
+				49D8BDE423E762D300B40784 /* ContentView.swift */,
+				496B74C023E9BE8E002EC5B6 /* PoemCellView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -726,13 +128,20 @@
 		49A36B4F22AD170E0021EEE3 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				496B74BE23E9BD9F002EC5B6 /* Persistence.swift */,
 				49A36B4D22AD17090021EEE3 /* Poem.swift */,
-				4901EA3822ED7598002049B3 /* ThemeComponents.swift */,
 				49CF579322ED9F8B0087294C /* AppState.swift */,
-				4933AB3F238E909E00058D9E /* UserSettings.swift */,
-				4933AB41238E90E200058D9E /* UserDefault.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		49D8BDEB23E7634200B40784 /* Earthbound ReleaseTests */ = {
+			isa = PBXGroup;
+			children = (
+				49D8BDEC23E7634200B40784 /* Earthbound_ReleaseTests.swift */,
+				49D8BDEE23E7634200B40784 /* Info.plist */,
+			);
+			path = "Earthbound ReleaseTests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -755,18 +164,40 @@
 			productReference = 49A36B2F22AD14670021EEE3 /* Earthbound Release.app */;
 			productType = "com.apple.product-type.application";
 		};
+		49D8BDE923E7634200B40784 /* Earthbound ReleaseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49D8BDF123E7634200B40784 /* Build configuration list for PBXNativeTarget "Earthbound ReleaseTests" */;
+			buildPhases = (
+				49D8BDE623E7634200B40784 /* Sources */,
+				49D8BDE723E7634200B40784 /* Frameworks */,
+				49D8BDE823E7634200B40784 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49D8BDF023E7634200B40784 /* PBXTargetDependency */,
+			);
+			name = "Earthbound ReleaseTests";
+			productName = "Earthbound ReleaseTests";
+			productReference = 49D8BDEA23E7634200B40784 /* Earthbound ReleaseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		49A36B2722AD14670021EEE3 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1100;
+				LastSwiftUpdateCheck = 1130;
 				LastUpgradeCheck = 1100;
 				ORGANIZATIONNAME = Smalli;
 				TargetAttributes = {
 					49A36B2E22AD14670021EEE3 = {
 						CreatedOnToolsVersion = 11.0;
+					};
+					49D8BDE923E7634200B40784 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 49A36B2E22AD14670021EEE3;
 					};
 				};
 			};
@@ -784,6 +215,7 @@
 			projectRoot = "";
 			targets = (
 				49A36B2E22AD14670021EEE3 /* Earthbound Release */,
+				49D8BDE923E7634200B40784 /* Earthbound ReleaseTests */,
 			);
 		};
 /* End PBXProject section */
@@ -793,207 +225,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				49005F8B22EE2D030020AFD9 /* poem12.txt in Resources */,
-				49005F0A22EE2D030020AFD9 /* poem91.txt in Resources */,
-				49005F1622EE2D030020AFD9 /* poem159.txt in Resources */,
-				49005F6622EE2D030020AFD9 /* poem34.txt in Resources */,
-				49005F1722EE2D030020AFD9 /* poem45.txt in Resources */,
-				49005F6D22EE2D030020AFD9 /* poem27.txt in Resources */,
-				49005F5F22EE2D030020AFD9 /* poem171.txt in Resources */,
-				49005F9622EE2D030020AFD9 /* poem184.txt in Resources */,
-				49005F9022EE2D030020AFD9 /* poem49.txt in Resources */,
-				49005F3522EE2D030020AFD9 /* poem102.txt in Resources */,
-				49005EF922EE2D030020AFD9 /* poem14.txt in Resources */,
-				49005EE122EE2D030020AFD9 /* poem156.txt in Resources */,
-				49005EF422EE2D030020AFD9 /* poem153.txt in Resources */,
-				49005EDE22EE2D030020AFD9 /* poem158.txt in Resources */,
-				49005F8322EE2D030020AFD9 /* poem59.txt in Resources */,
-				49005F3422EE2D030020AFD9 /* poem163.txt in Resources */,
-				49005F7A22EE2D030020AFD9 /* poem144.txt in Resources */,
-				49005F4822EE2D030020AFD9 /* poem106.txt in Resources */,
-				49005EDB22EE2D030020AFD9 /* poem118.txt in Resources */,
-				49005EE422EE2D030020AFD9 /* poem52.txt in Resources */,
-				49005F1822EE2D030020AFD9 /* poem63.txt in Resources */,
-				49005F0D22EE2D030020AFD9 /* poem195.txt in Resources */,
-				49005F1522EE2D030020AFD9 /* poem147.txt in Resources */,
-				49005EFF22EE2D030020AFD9 /* poem183.txt in Resources */,
-				49005F6922EE2D030020AFD9 /* poem194.txt in Resources */,
-				49005ED822EE2D030020AFD9 /* poem123.txt in Resources */,
-				49005EF322EE2D030020AFD9 /* poem75.txt in Resources */,
-				49005F2C22EE2D030020AFD9 /* poem122.txt in Resources */,
-				49005F3C22EE2D030020AFD9 /* poem4.txt in Resources */,
-				49005F1D22EE2D030020AFD9 /* poem119.txt in Resources */,
-				49005F2D22EE2D030020AFD9 /* poem160.txt in Resources */,
-				49005F7022EE2D030020AFD9 /* poem98.txt in Resources */,
-				49005F1022EE2D030020AFD9 /* poem173.txt in Resources */,
-				49005F4922EE2D030020AFD9 /* poem135.txt in Resources */,
-				49005EE622EE2D030020AFD9 /* poem60.txt in Resources */,
-				49005F2F22EE2D030020AFD9 /* poem56.txt in Resources */,
-				49005F8422EE2D030020AFD9 /* poem155.txt in Resources */,
-				49005F4422EE2D030020AFD9 /* poem58.txt in Resources */,
-				49005F5822EE2D030020AFD9 /* poem188.txt in Resources */,
-				49005F5522EE2D030020AFD9 /* poem201.txt in Resources */,
-				49005F2322EE2D030020AFD9 /* poem165.txt in Resources */,
-				49005F4C22EE2D030020AFD9 /* poem142.txt in Resources */,
-				49005F2422EE2D030020AFD9 /* poem104.txt in Resources */,
-				49005F9222EE2D030020AFD9 /* poem164.txt in Resources */,
-				49005F6A22EE2D030020AFD9 /* poem179.txt in Resources */,
-				49005F1B22EE2D030020AFD9 /* poem62.txt in Resources */,
-				49005F7522EE2D030020AFD9 /* poem113.txt in Resources */,
-				49005F7422EE2D030020AFD9 /* poem154.txt in Resources */,
-				49005EF022EE2D030020AFD9 /* poem36.txt in Resources */,
-				49005F4122EE2D030020AFD9 /* poem76.txt in Resources */,
-				49005F8122EE2D030020AFD9 /* poem161.txt in Resources */,
-				49005EE222EE2D030020AFD9 /* poem99.txt in Resources */,
-				49005F2022EE2D030020AFD9 /* poem71.txt in Resources */,
-				49005ED622EE2D030020AFD9 /* poem55.txt in Resources */,
-				49005F2522EE2D030020AFD9 /* poem39.txt in Resources */,
-				49005F5422EE2D030020AFD9 /* poem65.txt in Resources */,
-				49005F7722EE2D030020AFD9 /* poem132.txt in Resources */,
-				49005EDF22EE2D030020AFD9 /* poem181.txt in Resources */,
-				49005F5222EE2D030020AFD9 /* poem61.txt in Resources */,
-				49005EFA22EE2D030020AFD9 /* poem185.txt in Resources */,
-				49005F4022EE2D030020AFD9 /* poem167.txt in Resources */,
-				49005F9722EE2D030020AFD9 /* poem199.txt in Resources */,
-				49005F4E22EE2D030020AFD9 /* poem41.txt in Resources */,
-				49005F6522EE2D030020AFD9 /* poem38.txt in Resources */,
-				49005F5122EE2D030020AFD9 /* poem79.txt in Resources */,
-				49005F6B22EE2D030020AFD9 /* poem140.txt in Resources */,
-				49005F2E22EE2D030020AFD9 /* poem124.txt in Resources */,
-				49005F5622EE2D030020AFD9 /* poem19.txt in Resources */,
-				49005F0622EE2D030020AFD9 /* poem103.txt in Resources */,
-				49005F4522EE2D030020AFD9 /* poem64.txt in Resources */,
-				49005ED522EE2D030020AFD9 /* poem85.txt in Resources */,
-				49005F0322EE2D030020AFD9 /* poem29.txt in Resources */,
 				49A36B3F22AD14680021EEE3 /* LaunchScreen.storyboard in Resources */,
-				49005EDA22EE2D030020AFD9 /* poem90.txt in Resources */,
-				49005F2622EE2D030020AFD9 /* poem47.txt in Resources */,
-				49005EE722EE2D030020AFD9 /* poem74.txt in Resources */,
-				49005F9822EE2D030020AFD9 /* poem43.txt in Resources */,
-				49005F3922EE2D030020AFD9 /* poem86.txt in Resources */,
-				49005ED922EE2D030020AFD9 /* poem170.txt in Resources */,
-				49005F5C22EE2D030020AFD9 /* poem24.txt in Resources */,
-				49005F1F22EE2D030020AFD9 /* poem131.txt in Resources */,
-				49005EE322EE2D030020AFD9 /* poem11.txt in Resources */,
-				49005EEF22EE2D030020AFD9 /* poem42.txt in Resources */,
-				49005EE522EE2D030020AFD9 /* poem133.txt in Resources */,
-				49005F3822EE2D030020AFD9 /* poem10.txt in Resources */,
-				49005EFE22EE2D030020AFD9 /* poem117.txt in Resources */,
-				49005F7622EE2D030020AFD9 /* poem80.txt in Resources */,
-				49005F2922EE2D030020AFD9 /* poem37.txt in Resources */,
-				49005F9422EE2D030020AFD9 /* poem192.txt in Resources */,
-				49005F4222EE2D030020AFD9 /* poem100.txt in Resources */,
-				49005F8522EE2D030020AFD9 /* poem20.txt in Resources */,
-				49005F5E22EE2D030020AFD9 /* poem66.txt in Resources */,
-				49005F8022EE2D030020AFD9 /* poem111.txt in Resources */,
-				49005EF122EE2D030020AFD9 /* poem187.txt in Resources */,
-				49005EF622EE2D030020AFD9 /* poem168.txt in Resources */,
-				49005F3022EE2D030020AFD9 /* poem88.txt in Resources */,
-				49005EFC22EE2D030020AFD9 /* poem138.txt in Resources */,
-				49005F7222EE2D030020AFD9 /* poem200.txt in Resources */,
-				49005F4722EE2D030020AFD9 /* poem190.txt in Resources */,
 				49005F9A22EE31A10020AFD9 /* FrameImages.xcassets in Resources */,
-				49005F4622EE2D030020AFD9 /* poem107.txt in Resources */,
-				49005F0E22EE2D030020AFD9 /* poem40.txt in Resources */,
-				49005F3F22EE2D030020AFD9 /* poem96.txt in Resources */,
-				49005F1122EE2D030020AFD9 /* poem93.txt in Resources */,
-				49005F1422EE2D030020AFD9 /* poem81.txt in Resources */,
-				49005EFB22EE2D030020AFD9 /* poem127.txt in Resources */,
-				49005F5722EE2D030020AFD9 /* poem109.txt in Resources */,
-				49005F3222EE2D030020AFD9 /* poem175.txt in Resources */,
-				49005F6222EE2D030020AFD9 /* poem21.txt in Resources */,
-				49005F1922EE2D030020AFD9 /* poem54.txt in Resources */,
-				49005F6422EE2D030020AFD9 /* poem8.txt in Resources */,
-				49005F6822EE2D030020AFD9 /* poem25.txt in Resources */,
-				49005F0822EE2D030020AFD9 /* poem105.txt in Resources */,
 				49A36B3C22AD14680021EEE3 /* Preview Assets.xcassets in Resources */,
-				49005F6F22EE2D030020AFD9 /* poem112.txt in Resources */,
-				49005F8722EE2D030020AFD9 /* poem180.txt in Resources */,
-				49005F6322EE2D030020AFD9 /* poem67.txt in Resources */,
-				49005F8622EE2D030020AFD9 /* poem143.txt in Resources */,
-				49005F1222EE2D030020AFD9 /* poem197.txt in Resources */,
-				49005EE922EE2D030020AFD9 /* poem31.txt in Resources */,
-				49005EDD22EE2D030020AFD9 /* poem30.txt in Resources */,
-				49005F2B22EE2D030020AFD9 /* poem108.txt in Resources */,
-				49005F7922EE2D030020AFD9 /* poem149.txt in Resources */,
-				49005F3D22EE2D030020AFD9 /* poem151.txt in Resources */,
-				49005F1E22EE2D030020AFD9 /* poem92.txt in Resources */,
 				49A36B3922AD14680021EEE3 /* Assets.xcassets in Resources */,
-				49005EF722EE2D030020AFD9 /* poem72.txt in Resources */,
-				49005F9322EE2D030020AFD9 /* poem196.txt in Resources */,
-				49005F5922EE2D030020AFD9 /* poem169.txt in Resources */,
-				49005F8922EE2D030020AFD9 /* poem150.txt in Resources */,
-				49005F8822EE2D030020AFD9 /* poem145.txt in Resources */,
-				49005EEE22EE2D030020AFD9 /* poem22.txt in Resources */,
-				49005F8222EE2D030020AFD9 /* poem189.txt in Resources */,
-				49005F6C22EE2D030020AFD9 /* poem46.txt in Resources */,
-				49005F3122EE2D030020AFD9 /* poem186.txt in Resources */,
-				49005EE022EE2D030020AFD9 /* poem101.txt in Resources */,
-				49005F3B22EE2D030020AFD9 /* poem69.txt in Resources */,
-				49005F9122EE2D030020AFD9 /* poem136.txt in Resources */,
-				49005F7322EE2D030020AFD9 /* poem78.txt in Resources */,
-				49005F6E22EE2D030020AFD9 /* poem16.txt in Resources */,
-				49005F4D22EE2D030020AFD9 /* poem89.txt in Resources */,
-				49005F7E22EE2D030020AFD9 /* poem48.txt in Resources */,
-				49005F8C22EE2D030020AFD9 /* poem84.txt in Resources */,
-				49005F6722EE2D030020AFD9 /* poem141.txt in Resources */,
-				49005F5D22EE2D030020AFD9 /* poem95.txt in Resources */,
-				49005EED22EE2D030020AFD9 /* poem82.txt in Resources */,
-				49005F8D22EE2D030020AFD9 /* poem193.txt in Resources */,
-				49005F2A22EE2D030020AFD9 /* poem28.txt in Resources */,
-				49005F7122EE2D030020AFD9 /* poem191.txt in Resources */,
-				49005F0222EE2D030020AFD9 /* poem17.txt in Resources */,
-				49005F3322EE2D030020AFD9 /* poem7.txt in Resources */,
-				49005EF822EE2D030020AFD9 /* poem51.txt in Resources */,
-				49005F5022EE2D030020AFD9 /* poem139.txt in Resources */,
-				49005F9522EE2D030020AFD9 /* poem1.txt in Resources */,
-				49005F1C22EE2D030020AFD9 /* poem33.txt in Resources */,
-				49005ED722EE2D030020AFD9 /* poem137.txt in Resources */,
-				49005EE822EE2D030020AFD9 /* poem115.txt in Resources */,
-				49005F3722EE2D030020AFD9 /* poem23.txt in Resources */,
-				49005F0722EE2D030020AFD9 /* poem178.txt in Resources */,
-				49005F7C22EE2D030020AFD9 /* poem53.txt in Resources */,
-				49005F7822EE2D030020AFD9 /* poem177.txt in Resources */,
-				49005F6122EE2D030020AFD9 /* poem5.txt in Resources */,
-				49005F3622EE2D030020AFD9 /* poem32.txt in Resources */,
-				49005F1322EE2D030020AFD9 /* poem134.txt in Resources */,
-				49005F0F22EE2D030020AFD9 /* poem15.txt in Resources */,
-				49005EEA22EE2D030020AFD9 /* poem2.txt in Resources */,
-				49005EEB22EE2D030020AFD9 /* poem172.txt in Resources */,
-				49005F4F22EE2D030020AFD9 /* poem166.txt in Resources */,
-				49005EDC22EE2D030020AFD9 /* poem128.txt in Resources */,
-				49005F8A22EE2D030020AFD9 /* poem110.txt in Resources */,
-				49005F0922EE2D030020AFD9 /* poem97.txt in Resources */,
-				49005F7F22EE2D030020AFD9 /* poem126.txt in Resources */,
-				49005F0422EE2D030020AFD9 /* poem116.txt in Resources */,
-				49005F0C22EE2D030020AFD9 /* poem198.txt in Resources */,
-				49005EFD22EE2D030020AFD9 /* poem129.txt in Resources */,
-				49005F5B22EE2D030020AFD9 /* poem6.txt in Resources */,
-				49005F2122EE2D030020AFD9 /* poem35.txt in Resources */,
-				49005F4322EE2D030020AFD9 /* poem176.txt in Resources */,
-				49005F6022EE2D030020AFD9 /* poem152.txt in Resources */,
-				49005F7B22EE2D030020AFD9 /* poem146.txt in Resources */,
-				49005EF222EE2D030020AFD9 /* poem9.txt in Resources */,
-				49005F7D22EE2D030020AFD9 /* poem114.txt in Resources */,
-				49005F2722EE2D030020AFD9 /* poem174.txt in Resources */,
-				49005ED422EE2D030020AFD9 /* poem162.txt in Resources */,
-				49005F0122EE2D030020AFD9 /* poem18.txt in Resources */,
-				49005F4A22EE2D030020AFD9 /* poem57.txt in Resources */,
-				49005F8F22EE2D030020AFD9 /* poem44.txt in Resources */,
-				49005F5A22EE2D030020AFD9 /* poem3.txt in Resources */,
-				49005F2822EE2D030020AFD9 /* poem148.txt in Resources */,
-				49005F1A22EE2D030020AFD9 /* poem120.txt in Resources */,
-				49005F3E22EE2D030020AFD9 /* poem13.txt in Resources */,
-				49005EF522EE2D030020AFD9 /* poem130.txt in Resources */,
-				49005F0B22EE2D030020AFD9 /* poem83.txt in Resources */,
-				49005F0522EE2D030020AFD9 /* poem77.txt in Resources */,
-				49005F8E22EE2D030020AFD9 /* poem26.txt in Resources */,
-				49005F4B22EE2D030020AFD9 /* poem68.txt in Resources */,
-				49005F2222EE2D030020AFD9 /* poem121.txt in Resources */,
-				49005F0022EE2D030020AFD9 /* poem50.txt in Resources */,
-				49005F5322EE2D030020AFD9 /* poem182.txt in Resources */,
-				49005EEC22EE2D030020AFD9 /* poem157.txt in Resources */,
-				49005F3A22EE2D030020AFD9 /* poem94.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49D8BDE823E7634200B40784 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1004,27 +246,35 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4966DE132376EC050092CF77 /* TitlePreviewCard.swift in Sources */,
 				49A36B4E22AD17090021EEE3 /* Poem.swift in Sources */,
-				4901EA3922ED7598002049B3 /* ThemeComponents.swift in Sources */,
-				490F9B51238C7D8900CF8D93 /* PoemCD+CoreDataClass.swift in Sources */,
+				496B74BF23E9BD9F002EC5B6 /* Persistence.swift in Sources */,
+				496B74C123E9BE8E002EC5B6 /* PoemCellView.swift in Sources */,
+				49D8BDE523E762D300B40784 /* ContentView.swift in Sources */,
 				49A36B3322AD14670021EEE3 /* AppDelegate.swift in Sources */,
 				49CF579422ED9F8B0087294C /* AppState.swift in Sources */,
 				4966DE162376F8E80092CF77 /* Earthbound_Release.xcdatamodeld in Sources */,
-				496B20462389EC2100559168 /* ShapesView.swift in Sources */,
-				49CF579822EDA2860087294C /* PoemDetail.swift in Sources */,
-				490F9B52238C7D8900CF8D93 /* PoemCD+CoreDataProperties.swift in Sources */,
-				49A36B4C22AD15E80021EEE3 /* PoemCellView.swift in Sources */,
-				49026D3F2384428D00445FFB /* FrameView.swift in Sources */,
-				4933AB42238E90E200058D9E /* UserDefault.swift in Sources */,
+				49D8BDE323E762AA00B40784 /* BookCoverView.swift in Sources */,
 				49A36B3522AD14670021EEE3 /* SceneDelegate.swift in Sources */,
-				4933AB40238E909E00058D9E /* UserSettings.swift in Sources */,
-				49026D4123844D0800445FFB /* ButtonTo_PoemTitleListView.swift in Sources */,
-				4901EA3722ED701A002049B3 /* CoverPage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49D8BDE623E7634200B40784 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49D8BDED23E7634200B40784 /* Earthbound_ReleaseTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		49D8BDF023E7634200B40784 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49A36B2E22AD14670021EEE3 /* Earthbound Release */;
+			targetProxy = 49D8BDEF23E7634200B40784 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		49A36B3D22AD14680021EEE3 /* LaunchScreen.storyboard */ = {
@@ -1192,6 +442,48 @@
 			};
 			name = Release;
 		};
+		49D8BDF223E7634200B40784 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QX79LNB56B;
+				INFOPLIST_FILE = "Earthbound ReleaseTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "world.smalli.Earthbound-ReleaseTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Earthbound Release.app/Earthbound Release";
+			};
+			name = Debug;
+		};
+		49D8BDF323E7634200B40784 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QX79LNB56B;
+				INFOPLIST_FILE = "Earthbound ReleaseTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "world.smalli.Earthbound-ReleaseTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Earthbound Release.app/Earthbound Release";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1209,6 +501,15 @@
 			buildConfigurations = (
 				49A36B4422AD14680021EEE3 /* Debug */,
 				49A36B4522AD14680021EEE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49D8BDF123E7634200B40784 /* Build configuration list for PBXNativeTarget "Earthbound ReleaseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49D8BDF223E7634200B40784 /* Debug */,
+				49D8BDF323E7634200B40784 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

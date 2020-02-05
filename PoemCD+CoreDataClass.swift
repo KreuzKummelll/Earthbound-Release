@@ -14,9 +14,7 @@ import CoreData
 public class PoemCD: NSManagedObject {
     
     
-    var wrappedId : UUID {
-        id ?? UUID()
-    }
+    
     var wrappedText: String {
         text ?? "Unknown text"
     }

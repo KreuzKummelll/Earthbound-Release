@@ -2,59 +2,59 @@
 //  PoemCellView.swift
 //  Earthbound Release
 //
-//  Created by Andrew on 09.06.19.
-//  Copyright © 2019 Smalli. All rights reserved.
+//  Created by Andrew on 04.02.20.
+//  Copyright © 2020 Smalli. All rights reserved.
 //
 
+import Foundation
 import SwiftUI
 
-struct PoemCellView : View {
+struct PoemCellView: View {
     
-//    @ObservedObject var state: AppState
-    @FetchRequest(entity: PoemCD.entity(), sortDescriptors: []) var poems: FetchedResults<PoemCD>
-
+    let poem: Poem
+    @State private var titleTapped: Bool = false
     
-    @State private var showPoemDetail = false
+    var newGenTimer: Timer {
+        Timer.scheduledTimer(withTimeInterval: 0.5, repeats: false) { _ in
+            self.titleTapped = false
+        }
+    }
     
     var body: some View {
-        
-        
-        ScrollView(.horizontal, showsIndicators: false) {
-            HStack(spacing: 10) {
-                ForEach(0..<self.poems.count) { index in
-                    VStack {
-                        GeometryReader { geo in
-                            
-                            TitlePreviewCard(title: self.poems[index].title ?? "Untitled")
-                                .padding()
-                                .background(LinearGradient(gradient: Gradient(colors: [Color.gray, Color.green]), startPoint: .bottomTrailing, endPoint: .top))
-                                .rotation3DEffect(.degrees(-Double(geo.frame(in: .global).minX) / 8), axis: (x: 0, y: 1, z: 0))
-                        }
-                    }
+        VStack(alignment: .center, spacing: 20){
+            
+            ScrollView(.vertical, showsIndicators: true) {
+            
+            HStack{
+                Text("<\(poem.title)>")
+                    .rotation3DEffect(Angle(degrees: (self.titleTapped ? (Bool.random() ? 360 : -360) : 0)), axis: (x: CGFloat.random(in: 0...1), y: CGFloat.random(in: 0...1), z: CGFloat.random(in: 0...1)))
                     .onTapGesture {
-                       
-                        self.showPoemDetail.toggle()
-                    }
-                    .frame(width: 400)
-                    .sheet(isPresented: self.$showPoemDetail) {
-                        PoemDetail(poem: self.poems[index])
-                    }
+                        withAnimation {
+                            self.titleTapped = true
+                            _ = self.newGenTimer
+                        }
+                        
                 }
-                .padding()
-                
-            }
-            .background(Color.black)
-        }
+                Spacer()
+            }.font(.system(size: 54, weight: .ultraLight, design: .serif))
         
+                Text(poem.text).font(.system(size: 30, weight: .ultraLight, design: .rounded)).frame(width: UIScreen.main.bounds.width * 0.9, alignment: .leading)
+            }
+        
+            
+            
+            
+        }
+        .onAppear {
+            
+        }
     }
-    
+
 }
 
 
-struct PoemCellView_Previews : PreviewProvider {
+struct PoemCellView_Previews: PreviewProvider {
     static var previews: some View {
-        PoemCellView()
+        PoemCellView(poem: Poem(title: "Poem 1", text: "Text of poem", id: 1))
     }
 }
-
-

@@ -23,13 +23,12 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
             fatalError("Unable to read managed object context.")
         }
         let appState = AppState()
-        let userSettings = UserSettings()
-        let coverPage = CoverPage(userSettings: userSettings).environment(\.managedObjectContext, context).environmentObject(appState)
+        let contentView = ContentView().environment(\.managedObjectContext, context).environmentObject(appState)
         
         // Use a UIHostingController as window root view controller
        if let windowScene = scene as? UIWindowScene {
             let window = UIWindow(windowScene: windowScene)
-            window.rootViewController = UIHostingController(rootView: coverPage)
+            window.rootViewController = UIHostingController(rootView: contentView)
             self.window = window
             window.makeKeyAndVisible()
         }
