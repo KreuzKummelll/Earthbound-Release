@@ -8,9 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		49005F9A22EE31A10020AFD9 /* FrameImages.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49005F9922EE31A10020AFD9 /* FrameImages.xcassets */; };
+		492E340A23EAECA40025FFFB /* FavoritedPoem+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492E340823EAECA40025FFFB /* FavoritedPoem+CoreDataClass.swift */; };
+		492E340B23EAECA40025FFFB /* FavoritedPoem+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492E340923EAECA40025FFFB /* FavoritedPoem+CoreDataProperties.swift */; };
 		4966DE162376F8E80092CF77 /* Earthbound_Release.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4966DE142376F8E80092CF77 /* Earthbound_Release.xcdatamodeld */; };
 		496B74BF23E9BD9F002EC5B6 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496B74BE23E9BD9F002EC5B6 /* Persistence.swift */; };
-		496B74C123E9BE8E002EC5B6 /* PoemCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496B74C023E9BE8E002EC5B6 /* PoemCellView.swift */; };
+		496B74C123E9BE8E002EC5B6 /* PoemDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496B74C023E9BE8E002EC5B6 /* PoemDetailView.swift */; };
+		497D93F023EAF130000F7270 /* UIColor+Gold.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497D93EF23EAF130000F7270 /* UIColor+Gold.swift */; };
+		49984DC523EB0EE50065DED6 /* FavoritesScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49984DC423EB0EE50065DED6 /* FavoritesScreen.swift */; };
 		49A36B3322AD14670021EEE3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A36B3222AD14670021EEE3 /* AppDelegate.swift */; };
 		49A36B3522AD14670021EEE3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A36B3422AD14670021EEE3 /* SceneDelegate.swift */; };
 		49A36B3922AD14680021EEE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49A36B3822AD14680021EEE3 /* Assets.xcassets */; };
@@ -35,9 +39,13 @@
 
 /* Begin PBXFileReference section */
 		49005F9922EE31A10020AFD9 /* FrameImages.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = FrameImages.xcassets; path = "../../../../../System/Volumes/Data/Users/andrew/Developer/Earthbound Release/Earthbound Release/FrameImages.xcassets"; sourceTree = "<group>"; };
+		492E340823EAECA40025FFFB /* FavoritedPoem+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FavoritedPoem+CoreDataClass.swift"; sourceTree = "<group>"; };
+		492E340923EAECA40025FFFB /* FavoritedPoem+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FavoritedPoem+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		4966DE152376F8E80092CF77 /* Earthbound_Release.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Earthbound_Release.xcdatamodel; sourceTree = "<group>"; };
 		496B74BE23E9BD9F002EC5B6 /* Persistence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
-		496B74C023E9BE8E002EC5B6 /* PoemCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoemCellView.swift; sourceTree = "<group>"; };
+		496B74C023E9BE8E002EC5B6 /* PoemDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoemDetailView.swift; sourceTree = "<group>"; };
+		497D93EF23EAF130000F7270 /* UIColor+Gold.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Gold.swift"; sourceTree = "<group>"; };
+		49984DC423EB0EE50065DED6 /* FavoritesScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesScreen.swift; sourceTree = "<group>"; };
 		49A36B2F22AD14670021EEE3 /* Earthbound Release.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Earthbound Release.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		49A36B3222AD14670021EEE3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		49A36B3422AD14670021EEE3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -72,6 +80,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		492E340723EAEC8F0025FFFB /* Core Data Classes */ = {
+			isa = PBXGroup;
+			children = (
+				492E340823EAECA40025FFFB /* FavoritedPoem+CoreDataClass.swift */,
+				492E340923EAECA40025FFFB /* FavoritedPoem+CoreDataProperties.swift */,
+			);
+			path = "Core Data Classes";
+			sourceTree = "<group>";
+		};
+		497D93F123EAF141000F7270 /* Colors+Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				497D93EF23EAF130000F7270 /* UIColor+Gold.swift */,
+			);
+			path = "Colors+Extensions";
+			sourceTree = "<group>";
+		};
 		49A36B2622AD14670021EEE3 = {
 			isa = PBXGroup;
 			children = (
@@ -93,6 +118,8 @@
 		49A36B3122AD14670021EEE3 /* Earthbound Release */ = {
 			isa = PBXGroup;
 			children = (
+				497D93F123EAF141000F7270 /* Colors+Extensions */,
+				492E340723EAEC8F0025FFFB /* Core Data Classes */,
 				49A36B3222AD14670021EEE3 /* AppDelegate.swift */,
 				49A36B3422AD14670021EEE3 /* SceneDelegate.swift */,
 				49A36B3822AD14680021EEE3 /* Assets.xcassets */,
@@ -120,7 +147,8 @@
 			children = (
 				49D8BDE223E762AA00B40784 /* BookCoverView.swift */,
 				49D8BDE423E762D300B40784 /* ContentView.swift */,
-				496B74C023E9BE8E002EC5B6 /* PoemCellView.swift */,
+				496B74C023E9BE8E002EC5B6 /* PoemDetailView.swift */,
+				49984DC423EB0EE50065DED6 /* FavoritesScreen.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -247,14 +275,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				49A36B4E22AD17090021EEE3 /* Poem.swift in Sources */,
+				49984DC523EB0EE50065DED6 /* FavoritesScreen.swift in Sources */,
 				496B74BF23E9BD9F002EC5B6 /* Persistence.swift in Sources */,
-				496B74C123E9BE8E002EC5B6 /* PoemCellView.swift in Sources */,
+				497D93F023EAF130000F7270 /* UIColor+Gold.swift in Sources */,
+				496B74C123E9BE8E002EC5B6 /* PoemDetailView.swift in Sources */,
 				49D8BDE523E762D300B40784 /* ContentView.swift in Sources */,
 				49A36B3322AD14670021EEE3 /* AppDelegate.swift in Sources */,
+				492E340B23EAECA40025FFFB /* FavoritedPoem+CoreDataProperties.swift in Sources */,
 				49CF579422ED9F8B0087294C /* AppState.swift in Sources */,
 				4966DE162376F8E80092CF77 /* Earthbound_Release.xcdatamodeld in Sources */,
 				49D8BDE323E762AA00B40784 /* BookCoverView.swift in Sources */,
 				49A36B3522AD14670021EEE3 /* SceneDelegate.swift in Sources */,
+				492E340A23EAECA40025FFFB /* FavoritedPoem+CoreDataClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
